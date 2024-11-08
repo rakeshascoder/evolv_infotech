@@ -1,5 +1,5 @@
 import React from "react";
-// import Business_img from "../assets/PNG/Business_img.Png"
+// import Business_img from "../assets/PNG/Business_img.png"
 import business_right_circle from "../assets/PNG/business_right_circle.png";
 import business_left_circle from "../assets/PNG/business_left_circle.png";
 import men_img from "../assets/PNG/men_img.png";

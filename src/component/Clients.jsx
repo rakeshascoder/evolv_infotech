@@ -1,6 +1,6 @@
 import React from "react";
-import john_img from "../assets/PNG/john_img.Png"
-import five_star from "../assets/PNG/five_star.Png"
+import john_img from "../assets/PNG/john_img.png"
+import five_star from "../assets/PNG/five_star.png"
 
 const Clients = () => {
     return <div>

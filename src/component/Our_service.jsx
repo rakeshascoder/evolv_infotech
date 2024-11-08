@@ -1,5 +1,5 @@
 import React from "react";
-import start_img from "../assets/PNG/start_img.Png"
+import start_img from "../assets/PNG/start_img.png"
 
 const Our_service = () => {
     return <div>

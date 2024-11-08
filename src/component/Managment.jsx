@@ -1,8 +1,8 @@
 import React from "react";
-// import bgc_img from "../assets/PNG/bgc_img.Png"
-import Security from "../assets/PNG/Security.Png"
-import Data_img from "../assets/PNG/Data_img.Png"
-import Network_img from "../assets/PNG/Network_img.Png"
+// import bgc_img from "../assets/PNG/bgc_img.png"
+import Security from "../assets/PNG/Security.png"
+import Data_img from "../assets/PNG/Data_img.png"
+import Network_img from "../assets/PNG/Network_img.png"
 const cards = [
 
     {

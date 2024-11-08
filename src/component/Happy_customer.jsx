@@ -1,8 +1,8 @@
 import React from "react";
-import Regent from "../assets/PNG/Regent.Png"
-import namo from "../assets/PNG/namo.Png"
-import wsd from "../assets/PNG/wsd.Png"
-import stsm from "../assets/PNG/stsm.Png"
+import Regent from "../assets/PNG/Regent.png"
+import namo from "../assets/PNG/namo.png"
+import wsd from "../assets/PNG/wsd.png"
+import stsm from "../assets/PNG/stsm.png"
 
 const Happy_customer = () => {
     return <div>

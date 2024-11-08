@@ -1,5 +1,5 @@
 import React from "react";
-import study_img from "../assets/PNG/study_img.Png"
+import study_img from "../assets/PNG/study_img.png"
 
 const It_solution_service = () => {
     return <div>
