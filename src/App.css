@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jacques+Francois&family=Jomolhari&family=Orelega+One&family=Outfit:wght@100..900&display=swap');
+
+.font_jacques{
+    font-family: "Jacques Francois", serif;
+}
+.font_inter{
+     font-family: "Inter", sans-serif;
+}
+.font_jomolhari{
+    font-family: "Jomolhari", serif;
+}
+.font_outfit{
+    font-family: "Outfit", sans-serif;
+}
+.font_Orelega{
+    font-family: "Orelega One", serif;
+}
+.get_start_border{
+    border: 2px solid  #06579C;
+}
+.bg_img{
+    background-image: url(../src/assets/PNG/bgc_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card_border{
+    border: 1px solid #06579C;
+}
+.start_img_border{
+    border: 1px solid #08B1F0;
+}
+input::placeholder{
+    color: white; 
+}
+.span_hover:hover svg path{
+    fill: rgb(15, 163, 221);
+}
+.telegram_hover:hover svg path{
+    fill: rgb(3, 143, 198);
+}
+.github_hover:hover svg path{
+    fill: red;
+}
+.whatapp_hover:hover svg path{
+    fill:green;
+}
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.nav_links{
+    position: fixed;
+    width: 100%;
+    height: calc(100vh - 96px);
+    bottom: 0;
+    left: -100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    transition: 0.8s;
+    z-index: 3;
+}
+/* .hamburger_menu {
+  height: 20px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger_menu span {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  display: block;
+} */
+.css-1upo691-MuiTypography-root {
+    margin: 0;
+    font-family: "Inter", sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #000000 !important;
+}
+
+.css-rizt0-MuiTypography-root {
+    margin: 0;
+    font-family: "Inter", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #00000099 !important;
+}
+
+.css-jineix-MuiButtonBase-root-MuiAccordionSummary-root {
+    background-color: transparent;
+    outline: none !important;
+    /* border: 0.5px solid #06579C1A !important; */
+    /* border: 1px solid #0000004D!important; */
+    padding: 20px 60px !important;
+    border-radius: 10px !important;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    min-height: 0 !important;
+    /* padding: 0px; */
+     background-color: #06579C1A !important;
+     box-shadow: none !important;
+ 
+    
+}
+.css-jineix-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+background-color: #fff !important;
+padding:20px 60px !important;
+}
+.css-1808mag-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+   background-color:transparent !important;
+    color: rgba(0, 0, 0, 0.87) !important;
+    /* border: 0.5px solid red !important; */
+       border-radius: 10px !important;
+       padding: 0 !important;
+       --Paper-shadow: transparent !important;
+
+}
+.css-1lj39kh-MuiAccordionDetails-root {
+      padding: 0px 60px 20px !important;
+    
+}
+.css-1808mag-MuiPaper-root-MuiAccordion-root {
+    --Paper-shadow: transparent !important;
+    border: 2px solid  #0000004D!important;
+     border-radius: 10px !important;
+            
+}
+
+.css-1umw9bq-MuiSvgIcon-root{
+display: none !important;
+}
+
+.css-1wqf3nl-MuiAccordionSummary-expandIconWrapper{
+background: url(./assets/SVG/Add.svg) no-repeat center;
+height: 14px;
+width: 14px;
+transform: none !important;
+position: absolute;
+left: 23px !important;
+}
+.css-1wqf3nl-MuiAccordionSummary-expandIconWrapper.Mui-expanded{
+   background: url(./assets/SVG/Subtract.svg) no-repeat center;
+   transform: none !important;
+}
+.rotate-animation {
+  display: inline-block; /* Ensures rotation happens in place */
+  animation: rotate 20s linear infinite; /* Continuous rotation */
+  transform-origin: center; /* Rotates around the center */
+}
+ol li a{
+  cursor: pointer;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .transition{
+  transition: 5s !important;
+} */
+
