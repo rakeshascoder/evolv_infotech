@@ -1,9 +1,9 @@
 import React from "react";
 // import Business_img from "../assets/PNG/Business_img.Png"
-import business_right_circle from "../assets/PNG/business_right_circle.Png";
-import business_left_circle from "../assets/PNG/business_left_circle.Png";
-import men_img from "../assets/PNG/men_img.Png";
-import circle from "../assets/PNG/circle.Png";
+import business_right_circle from "../assets/PNG/business_right_circle.png";
+import business_left_circle from "../assets/PNG/business_left_circle.png";
+import men_img from "../assets/PNG/men_img.png";
+import circle from "../assets/PNG/circle.png";
 
 const Herosection = () => {
   return (
