@@ -1,46 +1,28 @@
-// import { useState } from 'react'
-import './App.css'
-import Nav from './component/Nav'
-import Herosection from './component/Herosection'
-import It_solution_service from './component/It_solution_service'
-import Managment from './component/Managment'
-import Our_service from './component/Our_service'
-import Happy_customer from './component/Happy_customer'
-import Faqs from './component/Faqs'
-import Clients from './component/Clients'
-import Footer from './component/Footer'
-import { useRef } from 'react'
+import React from "react";
+import "./App.css";
+import Home from "./pages/Home";
+import { Routes, Route } from "react-router-dom";
+import AboutUs from "./pages/AboutUs";
+import OurService from "./pages/OurService";
+import Nav from "./component/Nav";
+import Footer from "./component/Footer";
+import Testimonials from "./pages/Testimonials";
+import Clints from './pages/Clints'
 
 function App() {
-  const heroRef = useRef(null);
-  const serviceRef = useRef(null);
-  const managementRef = useRef(null);
-  const clientsRef = useRef(null);
-
-  const scrollToSection = (ref) => {
-    if (ref.current) {
-      ref.current.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <>
-      <Nav scrollToSection={scrollToSection} refs={{ heroRef, serviceRef, managementRef, clientsRef }} />
-      <div ref={heroRef}>
-        <Herosection />
+      <div className="relative mt-0">
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutUs" element={<AboutUs />} />
+          <Route path="/ourService" element={<OurService />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/clints" element={<Clints />} />
+        </Routes>
+        <Footer />
       </div>
-      <div ref={serviceRef}>
-        <It_solution_service />
-      </div>
-      <div ref={managementRef}>
-        <Managment />
-      </div>
-      <Our_service />
-      <Happy_customer />
-      <div ref={clientsRef}>
-        <Clients />
-      </div>
-      <Footer scrollToSection={scrollToSection} refs={{ heroRef, serviceRef, managementRef, clientsRef }} />
     </>
   );
 }

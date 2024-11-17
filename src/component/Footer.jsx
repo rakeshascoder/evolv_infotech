@@ -1,6 +1,7 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-const Footer = ({ scrollToSection, refs }) => {
+const Footer = () => {
   return (
     <div>
       <div className="bg-[#DBE3EA] ">
@@ -155,36 +156,31 @@ const Footer = ({ scrollToSection, refs }) => {
               </p>
             </div>
 
-            <div className="xl:w-2/12 lg:w-3/12 md:w-5/12 sm:w-4/12 w-4/12 mt-[50px] lg:mt-0">
+            <div className="xl:w-2/12 lg:w-3/12 md:w-5/12 sm:w-4/12 w-4/12 mt-[50px] lg:mt-0 flex flex-col">
               <p className="font_inter font-medium text-[18px] leading-[21px] text-[#000000B2]">
                 Quicks Links
               </p>
 
-              <p
+              <NavLink
                 className="font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[30px] cursor-pointer hover:translate-x-[20px] duration-500"
-                onClick={() => scrollToSection(refs.heroRef)}
               >
                 Home
-              </p>
-              <p className="font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500"
-              onClick={()=>scrollToSection(refs.serviceRef)}>
+              </NavLink>
+              <NavLink className="font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 About Us
-              </p>
-              <p className="font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500"
-              onClick={()=>scrollToSection(refs.managementRef)}>
+              </NavLink>
+              <NavLink className="font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Services
-              </p>
-              <p className="font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500"
-              onClick={()=>scrollToSection(refs.clientsRef)}>
+              </NavLink>
+              <NavLink className="font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Clients
-              </p>
-              <p className="font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500"
-              onClick={()=>scrollToSection(refs.clientsRef)}>
+              </NavLink>
+              <NavLink className="font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Testimonials
-              </p>
+              </NavLink>
             </div>
 
-            <div className="xl:w-2/12 lg:w-3/12 md:w-4/12 sm:w-4/12  mt-[50px] lg:mt-0">
+            <div className="xl:w-2/12 lg:w-3/12 md:w-4/12 sm:w-6/12  mt-[50px] lg:mt-0">
               <p className="font_inter font-medium text-[18px] leading-[21px] text-[#000000B2]">
                 Address
               </p>

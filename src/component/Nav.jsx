@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import SendMessage from "./SendMessage";
+import { NavLink } from "react-router-dom";
 
-const Nav = ({ scrollToSection, refs }) => {
+const Nav = () => {
   const [toggleNav, setToggleNav] = useState();
 
   const [sendMessagePopup, setSendMessagePopup] = useState(false);
@@ -36,8 +37,8 @@ const Nav = ({ scrollToSection, refs }) => {
           className="fixed inset-0 bg-black opacity-60 backdrop-blur-3xl z-[20]"
         ></div>
       )}
-      <div className="max-w-[1360px] px-3  mx-auto   z-[-10]">
-        <div className=" bg-white shadow-[0px_4px_20px_0px_#0000001A] px-[30px] py-[20px] rounded-[20px] mt-[20px]">
+      <div className="max-w-[1360px] px-3  mx-auto   z-[-10] pt-5">
+        <div className=" bg-white shadow-[0px_4px_20px_0px_#0000001A] px-[30px] py-[20px] rounded-[20px] ">
           <div className="flex items-center justify-between z-[5000] relative">
             <div>
               <p className="text-[#000000] font-normal text-[24px]  leading-[26.17px] font_Orelega whitespace-nowrap cursor-pointer">
@@ -52,54 +53,44 @@ const Nav = ({ scrollToSection, refs }) => {
             >
               <ol className="flex max-lg:flex-col gap-10 ">
                 <li>
-                  <a
+                  <NavLink
                     className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
-                    onClick={() => {
-                      scrollToSection(refs.heroRef), handleToggleNav();
-                    }}
+                    to="/"
                   >
                     Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a
+                  <NavLink
+                  to="/aboutUs"
                     className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
-                    onClick={() => {
-                      scrollToSection(refs.serviceRef), handleToggleNav();
-                    }}
                   >
                     About Us
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a
+                  <NavLink
+                  to="/ourService"
                     className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
-                    onClick={() => {
-                      scrollToSection(refs.managementRef), handleToggleNav();
-                    }}
                   >
                     Services
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a
+                  <NavLink
+                  to="/clints"
                     className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
-                    onClick={() => {
-                      scrollToSection(refs.clientsRef), handleToggleNav();
-                    }}
                   >
                     Clients
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a
+                  <NavLink
+                  to="testimonials"
                     className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
-                    onClick={() => {
-                      scrollToSection(refs.clientsRef), handleToggleNav();
-                    }}
                   >
                     Testimonials
-                  </a>
+                  </NavLink>
                 </li>
               </ol>
               <div className="mt-7 lg:hidden">
@@ -169,7 +160,7 @@ const Nav = ({ scrollToSection, refs }) => {
       </div>
     </div>
   );
-  s;
+
 };
 
 export default Nav;
