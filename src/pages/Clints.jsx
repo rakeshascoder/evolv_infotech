@@ -4,7 +4,7 @@ import Panda from "../assets/PNG/panda.png";
 import Avira from "../assets/PNG/avira.png";
 import Msp from "../assets/PNG/msp.png";
 
-import RedBlur from "../assets/PNG/regBGBlur.png";
+import RedBlur from "../assets/PNG/regBgBlur.png";
 import YellowDesign from "../assets/PNG/yellowDesing.png";
 import GreenCircleDesign from "../assets/PNG/greenCircle.png";
 
