@@ -10,6 +10,7 @@ import Testimonials from "./pages/Testimonials";
 import Clints from './pages/Clints'
 
 function App() {
+  
   return (
     <>
       <div className="relative mt-0">
@@ -18,8 +19,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/aboutUs" element={<AboutUs />} />
           <Route path="/ourService" element={<OurService />} />
-          <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/clints" element={<Clints />} />
+          <Route path="/testimonials" element={<Testimonials />} />
         </Routes>
         <Footer />
       </div>

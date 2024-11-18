@@ -5,18 +5,22 @@ import Managment from "../component/Managment";
 import Our_service from "../component/Our_service";
 import Happy_customer from "../component/Happy_customer";
 import Clients from "../component/Clients";
-import  Contacts  from "../component/Contacts";
+import Contacts from "../component/Contacts";
+import { AppContext } from "../component/context";
 
 function Home() {
+
   return (
     <>
-      <Herosection />
+        <Herosection />
+      
       <It_solution_service />
       <Managment />
       <Our_service />
       <Happy_customer />
       <Clients />
-      <Contacts/>
+
+      <Contacts />
     </>
   );
 }

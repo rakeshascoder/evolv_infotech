@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import RedBigBlur from '../assets/PNG/redBigBlur.png'
 import YellowDesign from "../assets/PNG/yellowDesing.png";
 import AddressIcon from "../assets/SVG/Adress.svg"
 import EmailIcon from "../assets/SVG/email.svg"
 import MobileIcon from "../assets/SVG/mobile.svg"
+import { AppContext } from "./context";
 
 function Contacts() {
+ const {sectionRefs}=useContext(AppContext)
+
   return (
-    <div className="lg:py-[100px] md:py-[50px] py-[40px] relative overflow-hidden">
+    <div ref={(el)=>(sectionRefs.current[1]=el)} className="lg:py-[100px] md:py-[50px] py-[40px] relative overflow-hidden">
     <img className="absolute   bottom-[10%] left-[0%] lg:left-[10%] xl:left-[30%]  -z-10" src={RedBigBlur} alt="image background"/>
     <img className="absolute  bottom-[25%] left-[0%] lg:left-[40%] xl:left-[60%] -z-10" src={YellowDesign} alt="image background"/>
       <div className="max-w-[1360px] px-3 mx-auto">
