@@ -1,7 +1,7 @@
 import { Title } from "@mui/icons-material";
 import TeamMember1 from "../assets/PNG/teamMember1.png";
 import TeamMember2 from "../assets/PNG/teamMember2.png";
-import TeamMember3 from "../assets/PNG/teamMember3.png";
+import TeamMember3 from "../assets/PNG/TeamMember3.png";
 import TeamMember4 from "../assets/PNG/teamMember4.png";
 export const teamMember = [
   {
