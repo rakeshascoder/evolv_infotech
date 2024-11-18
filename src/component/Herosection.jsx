@@ -1,9 +1,9 @@
 import React from "react";
-// import Business_img from "../assets/PNG/Business_img.png"
 import business_right_circle from "../assets/PNG/business_right_circle.png";
 import business_left_circle from "../assets/PNG/business_left_circle.png";
 import men_img from "../assets/PNG/men_img.png";
 import circle from "../assets/PNG/circle.png";
+
 
 const Herosection = () => {
   return (
@@ -63,7 +63,7 @@ const Herosection = () => {
         </div>
       </div>
 
-      <div className="bg-[#164343] py-[26px] xl:px-[120px] lg:px-10 px-3 translate-y-[-18%] w-full">
+      <div className="bg-[#164343] py-[26px] xl:px-[120px] lg:px-10 px-3 translate-y-[-33px]  w-full">
         <div className="flex gap-5 justify-center lg:justify-between flex-wrap lg:text-start text-center ">
           <div className="flex items-center ">
             <div className="max-lg:p x-5 ">

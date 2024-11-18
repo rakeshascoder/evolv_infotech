@@ -1,36 +1,36 @@
-import React, { useState } from "react";
-import SendMessage from "./SendMessage";
-import { NavLink } from "react-router-dom";
+import React, { useContext, useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AppContext } from "./context";
 
-const Nav = () => {
-  const [toggleNav, setToggleNav] = useState();
+const Nav = ({ contactsRef }) => {
+  const [toggleNav, setToggleNav] = useState(false);
 
-  const [sendMessagePopup, setSendMessagePopup] = useState(false);
+ const {scrollToNextSection}=useContext(AppContext)
+ 
 
   const handleToggleNav = () => {
-    if (window.innerWidth < 1024) {
-      // Only toggle nav on screens smaller than 1024px
-      setToggleNav((prev) => {       
+    if (window.innerWidth < 1024){
+      setToggleNav((prev) => {
+
         document.body.style.overflow = prev ? "auto" : "hidden";
         return !prev;
       });
     }
   };
-  function toggleSendMessage() {
-    setSendMessagePopup(!sendMessagePopup);
-    if (!sendMessagePopup) {
-      setToggleNav(false);
-    }
+
+  function navToggel() {
+    setToggleNav(true);
+    setToggleNav((prev) => {
+      console.log(prev);
+
+      document.body.style.overflow = true ? "auto" : "hidden";
+      return !prev;
+    });
   }
+  console.log(!toggleNav);
 
   return (
     <div>
-      {sendMessagePopup && (
-        <div
-          onClick={() => setSendMessagePopup(!sendMessagePopup)}
-          className="fixed inset-0 bg-black opacity-60 backdrop-blur-3xl z-[30]"
-        ></div>
-      )}
       {toggleNav && (
         <div
           onClick={() => setToggleNav(!toggleNav)}
@@ -41,9 +41,12 @@ const Nav = () => {
         <div className=" bg-white shadow-[0px_4px_20px_0px_#0000001A] px-[30px] py-[20px] rounded-[20px] ">
           <div className="flex items-center justify-between z-[5000] relative">
             <div>
-              <p className="text-[#000000] font-normal text-[24px]  leading-[26.17px] font_Orelega whitespace-nowrap cursor-pointer">
+              <NavLink
+                to="/"
+                className="text-[#000000] font-normal text-[24px]  leading-[26.17px] font_Orelega whitespace-nowrap cursor-pointer"
+              >
                 Evolv Infotech
-              </p>
+              </NavLink>
             </div>
 
             <div
@@ -51,9 +54,48 @@ const Nav = () => {
                 !toggleNav ? "-left-full" : "left-0"
               }`}
             >
+              <div
+                onClick={handleToggleNav}
+                className="flex justify-end lg:hidden  cursor-pointer"
+              >
+                <div
+                  className=" absolute top-[50px] right-[40px] "
+                  style={{
+                    transform: toggleNav ? "rotate(45deg)" : "rotate(0deg)",
+                    transition: "transform 0.3s",
+                  }}
+                >
+                  <span
+                    style={{
+                      transform: toggleNav
+                        ? "rotate(-5deg) translate(10px, 5px)"
+                        : "rotate(0deg)",
+                      transition: "transform 0.3s",
+                    }}
+                    className="block w-8 h-[3px] bg-black mb-[6px]"
+                  ></span>
+                  <span
+                    style={{
+                      opacity: toggleNav ? 0 : 1,
+                      transition: "opacity 0.3s",
+                    }}
+                    className="block w-8 h-[3px] bg-black mb-[6px]"
+                  ></span>
+                  <span
+                    style={{
+                      transform: toggleNav
+                        ? "rotate(-80deg) translate(14px, 8px)"
+                        : "rotate(0deg)",
+                      transition: "transform 0.3s",
+                    }}
+                    className="block w-8 h-[3px] bg-black"
+                  ></span>
+                </div>
+              </div>
               <ol className="flex max-lg:flex-col gap-10 ">
                 <li>
                   <NavLink
+                    onClick={() => navToggel()}
                     className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
                     to="/"
                   >
@@ -62,7 +104,8 @@ const Nav = () => {
                 </li>
                 <li>
                   <NavLink
-                  to="/aboutUs"
+                    onClick={() => navToggel()}
+                    to="/aboutUs"
                     className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
                   >
                     About Us
@@ -70,7 +113,8 @@ const Nav = () => {
                 </li>
                 <li>
                   <NavLink
-                  to="/ourService"
+                    onClick={() => navToggel()}
+                    to="/ourService"
                     className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
                   >
                     Services
@@ -78,7 +122,8 @@ const Nav = () => {
                 </li>
                 <li>
                   <NavLink
-                  to="/clints"
+                    onClick={() => navToggel()}
+                    to="/clints"
                     className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
                   >
                     Clients
@@ -86,7 +131,8 @@ const Nav = () => {
                 </li>
                 <li>
                   <NavLink
-                  to="testimonials"
+                    onClick={() => navToggel()}
+                    to="testimonials"
                     className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
                   >
                     Testimonials
@@ -94,29 +140,33 @@ const Nav = () => {
                 </li>
               </ol>
               <div className="mt-7 lg:hidden">
-                <button
+                <Link
+                  onClick={() => (navToggel(),scrollToNextSection(1))
+                  }
                   className="font-normal font_outfit text-[18px] leading-[22px] text-[white] bg-[#06579C] px-[10px] py-[11px] rounded-[10px] hover:text-[#06579C] hover:bg-[white] get_start_border duration-500 whitespace-nowrap"
-                  onClick={toggleSendMessage}
                 >
                   Contact Us
-                </button>
+                </Link>
               </div>
             </div>
 
             <div className="hidden lg:block">
-              <button
+              <Link
+               onClick={() => (navToggel(),scrollToNextSection(1))}
                 className="font-normal font_outfit text-[18px] leading-[22px] text-[white] bg-[#06579C] px-[10px] py-[11px] rounded-[10px] hover:text-[#06579C] hover:bg-[white] get_start_border duration-500 whitespace-nowrap"
-                onClick={toggleSendMessage}
               >
                 Contact Us
-              </button>
+              </Link>
             </div>
 
             <div
               onClick={handleToggleNav}
-              className="flex justify-end lg:hidden  cursor-pointer"
+              className={`flex justify-end lg:hidden  cursor-pointer ${
+                toggleNav ? "opacity-0" : "opacity-100"
+              }`}
             >
               <div
+                className=" md:block"
                 style={{
                   transform: toggleNav ? "rotate(45deg)" : "rotate(0deg)",
                   transition: "transform 0.3s",
@@ -149,18 +199,11 @@ const Nav = () => {
                 ></span>
               </div>
             </div>
-
-            {sendMessagePopup && (
-              <div className=" fixed top-0 left-0 z-[30] flex items-center justify-center h-[70vh] lg:h-screen w-screen">
-                <SendMessage togglePopup={toggleSendMessage} />
-              </div>
-            )}
           </div>
         </div>
       </div>
     </div>
   );
-
 };
 
 export default Nav;
