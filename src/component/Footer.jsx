@@ -1,9 +1,7 @@
 import React, { useContext, useState } from "react";
 import { NavLink } from "react-router-dom";
-import { AppContext } from "./context";
 
 const Footer = () => {
- const {scrollToNextSection}=useContext(AppContext)
  const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };

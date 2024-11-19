@@ -1,7 +1,11 @@
 import React from "react";
 import start_img from "../assets/PNG/start_img.png"
+import { NavLink } from "react-router-dom";
 
 const Our_service = () => {
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
     return <div>
 
         <div className="max-w-[1360px] px-3 mx-auto ">
@@ -24,9 +28,11 @@ const Our_service = () => {
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
 
-                    <button className='font-normal font_outfit text-[18px] leading-[22px] text-[white] bg-[#06579C] px-[10px] py-[11px] rounded-[10px] hover:text-[#06579C] hover:bg-[white] get_start_border duration-500 whitespace-nowrap mt-[30px]'>
+                    <div className="mt-[30px]">
+                    <NavLink onClick={() =>scrollToTop()} to="/ourService" className='font-normal font_outfit text-[18px] leading-[22px] text-[white] bg-[#06579C] px-[10px] py-[11px] rounded-[10px] hover:text-[#06579C] hover:bg-[white] get_start_border duration-500 whitespace-nowrap'>
                         View All Services
-                    </button>
+                    </NavLink>
+                    </div>
                 </div>
 
 

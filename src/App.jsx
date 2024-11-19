@@ -8,6 +8,7 @@ import Nav from "./component/Nav";
 import Footer from "./component/Footer";
 import Testimonials from "./pages/Testimonials";
 import Clints from './pages/Clints'
+import GetInTouch from "./pages/GetInTouch";
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
           <Route path="/ourService" element={<OurService />} />
           <Route path="/clints" element={<Clints />} />
           <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/getINTouch" element={<GetInTouch/>}/>
         </Routes>
         <Footer />
       </div>

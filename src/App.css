@@ -181,7 +181,6 @@ ol li a {
   background-image: url(../src/assets/PNG/header_bg_aboutUs.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 .ourServie_bg_image {
   background-image: url(../src/assets/PNG/ourServicebg.png);
@@ -194,13 +193,16 @@ ol li a {
   background-image: url(../src/assets/PNG/testimonilasbg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 .clints_bg_image {
   background-image: url(../src/assets/PNG/clintsbg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+}
+.contact_bg_image{
+  background-image: url(../src/assets/PNG/contactBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .ourServie_hover{
@@ -219,3 +221,16 @@ ol li a {
   stroke:#06579C;
   transition: fill 0.3s ease, stroke 0.3s ease; 
 }
+
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";

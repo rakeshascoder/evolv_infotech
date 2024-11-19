@@ -4,15 +4,13 @@ import YellowDesign from "../assets/PNG/yellowDesing.png";
 import AddressIcon from "../assets/SVG/Adress.svg"
 import EmailIcon from "../assets/SVG/email.svg"
 import MobileIcon from "../assets/SVG/mobile.svg"
-import { AppContext } from "./context";
 
 function Contacts() {
- const {sectionRefs}=useContext(AppContext)
 
   return (
-    <div ref={(el)=>(sectionRefs.current[1]=el)} className="lg:py-[100px] md:py-[50px] py-[40px] relative overflow-hidden">
-    <img className="absolute   bottom-[10%] left-[0%] lg:left-[10%] xl:left-[30%]  -z-10" src={RedBigBlur} alt="image background"/>
-    <img className="absolute  bottom-[25%] left-[0%] lg:left-[40%] xl:left-[60%] -z-10" src={YellowDesign} alt="image background"/>
+    <div className="lg:py-[100px] md:py-[50px] py-[40px] relative overflow-hidden">
+    <img className="absolute hidden md:block   bottom-[10%] left-[0%] lg:left-[10%] xl:left-[30%]  -z-10" src={RedBigBlur} alt="image background"/>
+    <img className="absolute hidden md:block  bottom-[5%] left-[50%] lg:left-[60%] xl:left-[70%] -z-10" src={YellowDesign} alt="image background"/>
       <div className="max-w-[1360px] px-3 mx-auto">
         <div className="flex flex-row flex-wrap -mx-3 justify-between">
           <div className="w-full md:w-6/12 px-3">
@@ -53,7 +51,7 @@ function Contacts() {
               <div className="flex flex-wrap justify-between">
                 <div className="w-full sm:w-6/12 mt-5 sm:pe-3">
                   <input
-                    className="py-2 md:py-[17.5px] px-[10px] w-full rounded-md bg-white outline-none font_outfit placeholder:text-[#00000099] placeholder:text-base text-sm md:textbase font-normal"
+                    className="py-2 md:py-[17.5px] px-[10px] w-full rounded-md bg-white outline-none font_outfit placeholder:text-[#00000099] placeholder:text-base text-sm md:textbase font-normal border-[0.5px] border-[#0000004D] md:border-none"
                     type="text"
                     placeholder="Name"
                     required
@@ -62,7 +60,7 @@ function Contacts() {
 
                 <div className="w-full sm:w-6/12 mt-5">
                   <input
-                    className="py-2 md:py-[17.5px] px-[10px] w-full rounded-md bg-white outline-none font_outfit placeholder:text-[#00000099] placeholder:text-base text-sm md:textbase font-normal"
+                    className="py-2 md:py-[17.5px] px-[10px] w-full rounded-md bg-white outline-none font_outfit placeholder:text-[#00000099] placeholder:text-base text-sm md:textbase font-normal border-[0.5px] border-[#0000004D] md:border-none"
                     type="email"
                     placeholder="Email"
                     required
@@ -71,7 +69,7 @@ function Contacts() {
 
                 <div className="w-full sm:w-6/12 mt-5 sm:pe-3">
                   <input
-                    className="py-2 md:py-[17.5px] px-[10px] w-full rounded-md bg-white outline-none font_outfit placeholder:text-[#00000099] placeholder:text-base text-sm md:textbase font-normal"
+                    className="py-2 md:py-[17.5px] px-[10px] w-full rounded-md bg-white outline-none font_outfit placeholder:text-[#00000099] placeholder:text-base text-sm md:textbase font-normal border-[0.5px] border-[#0000004D] md:border-none"
                     type="number"
                     placeholder="Phone number"
                     required
@@ -80,7 +78,7 @@ function Contacts() {
 
                 <div className="w-full sm:w-6/12 mt-5">
                   <input
-                    className="py-2 md:py-[17.5px] px-[10px] w-full rounded-md bg-white outline-none font_outfit placeholder:text-[#00000099] placeholder:text-base text-sm md:textbase font-normal"
+                    className="py-2 md:py-[17.5px] px-[10px] w-full rounded-md bg-white outline-none font_outfit placeholder:text-[#00000099] placeholder:text-base text-sm md:textbase font-normal border-[0.5px] border-[#0000004D] md:border-none"
                     type="text"
                     placeholder="Subject"
                   />
@@ -88,7 +86,7 @@ function Contacts() {
 
                 <div className="w-full mt-5">
                   <textarea
-                    className="h-[70px] md:h-[120px] w-full py-2 md:py-[17.5px] px-[10px] rounded-md border-none bg-white font_outfit outline-none placeholder:text-[#00000099] text-sm md:textbase font-normal"
+                    className="h-[70px] md:h-[120px] w-full py-2 md:py-[17.5px] px-[10px] rounded-md bg-white font_outfit outline-none placeholder:text-[#00000099] text-sm md:textbase font-normal border-[0.5px] border-[#0000004D] md:border-none"
                     placeholder="type here !e"
                   ></textarea>
                 </div>

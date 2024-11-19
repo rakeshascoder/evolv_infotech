@@ -1,11 +1,8 @@
-import React, { useContext, useState } from "react";
+import React, {  useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { AppContext } from "./context";
 
-const Nav = ({ contactsRef }) => {
+const Nav = () => {
   const [toggleNav, setToggleNav] = useState(false);
-
- const {scrollToNextSection}=useContext(AppContext)
  
 
   const handleToggleNav = () => {
@@ -141,7 +138,8 @@ const Nav = ({ contactsRef }) => {
               </ol>
               <div className="mt-7 lg:hidden">
                 <Link
-                  onClick={() => (navToggel(),scrollToNextSection(1))
+                to="/getINTouch"
+                  onClick={() => (navToggel())
                   }
                   className="font-normal font_outfit text-[18px] leading-[22px] text-[white] bg-[#06579C] px-[10px] py-[11px] rounded-[10px] hover:text-[#06579C] hover:bg-[white] get_start_border duration-500 whitespace-nowrap"
                 >
@@ -152,7 +150,8 @@ const Nav = ({ contactsRef }) => {
 
             <div className="hidden lg:block">
               <Link
-               onClick={() => (navToggel(),scrollToNextSection(1))}
+              to="/getINTouch"
+               onClick={() => (navToggel())}
                 className="font-normal font_outfit text-[18px] leading-[22px] text-[white] bg-[#06579C] px-[10px] py-[11px] rounded-[10px] hover:text-[#06579C] hover:bg-[white] get_start_border duration-500 whitespace-nowrap"
               >
                 Contact Us
