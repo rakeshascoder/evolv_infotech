@@ -15,6 +15,9 @@ module.exports = {
       animation: {
         scroll: 'scroll 10s linear infinite',
       },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(88.06deg, #4A52C3 0%, #172D90 52%, #5157CA 100%)',
+      },
     },
   },
   plugins: [],

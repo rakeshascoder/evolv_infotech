@@ -11,8 +11,8 @@ function Contacts() {
 
   return (
     <div ref={(el)=>(sectionRefs.current[1]=el)} className="lg:py-[100px] md:py-[50px] py-[40px] relative overflow-hidden">
-    <img className="absolute   bottom-[10%] left-[0%] lg:left-[10%] xl:left-[30%]  -z-10" src={RedBigBlur} alt="image background"/>
-    <img className="absolute  bottom-[25%] left-[0%] lg:left-[40%] xl:left-[60%] -z-10" src={YellowDesign} alt="image background"/>
+    <img className="absolute bottom-[10%] left-[0%] lg:left-[10%] xl:left-[30%]  -z-10" src={RedBigBlur} alt="image background"/>
+    <img className="absolute bottom-[25%] left-[0%] lg:left-[40%] xl:left-[60%] -z-10" src={YellowDesign} alt="image background"/>
       <div className="max-w-[1360px] px-3 mx-auto">
         <div className="flex flex-row flex-wrap -mx-3 justify-between">
           <div className="w-full md:w-6/12 px-3">
@@ -88,7 +88,7 @@ function Contacts() {
 
                 <div className="w-full mt-5">
                   <textarea
-                    className="h-[70px] md:h-[120px] w-full py-2 md:py-[17.5px] px-[10px] rounded-md border-none bg-white font_outfit outline-none placeholder:text-[#00000099] text-sm md:textbase font-normal"
+                    className="h-[70px] md:h-[120px] resize-none w-full py-2 md:py-[17.5px] px-[10px] rounded-md border-none bg-white font_outfit outline-none placeholder:text-[#00000099] text-sm md:textbase font-normal"
                     placeholder="type here !e"
                   ></textarea>
                 </div>
@@ -104,7 +104,7 @@ function Contacts() {
                 </label>
               </div>
 
-              <button className="text-[14px] font-normal md:text-base  font_inter text-white bg-[#06579C] rounded-[10px] py-2 px-2 lg:py-[10px] lg:px-[20px] mt-3 lg:mt-[30px]">
+              <button className="text-[14px] font-normal md:text-base   text-white bg-[#06579C] rounded-[10px] py-2 px-2 lg:py-[10px] lg:px-[20px] mt-3 lg:mt-[30px]">
                 Send Message
               </button>
             </form>

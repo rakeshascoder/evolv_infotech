@@ -32,17 +32,14 @@ function OurService() {
           <div className="flex  justify-between -mx-3  flex-col-reverse xl:flex-row">
             <div className=" w-full lg:w-10/12  mx-auto  xl:w-6/12 px-3 ">
               <div>
-                <h6 className="font-medium text-xs sm:text-base font_outfit text-black mt-7 xl:mt-0">
-                  Why Choose Us
+                <h6 className="font-medium text-xs sm:text-base  text-black mt-7 xl:mt-0">
+                Overview
                 </h6>
-                <h1 className="font_outfit font-medium text-lg lg:text-5xl mt-3 lg:mt-4 xl:mt-[30px] text-black  lg:leading-[60px]">
-                  Our Partner in Proactive Cyber Defense
+                <h1 className=" font-normal text-lg lg:text-5xl mt-3 lg:mt-4 xl:mt-[30px] text-black  lg:leading-[60px]">
+                Discover cyber threats with our cutting-edge detection.
                 </h1>
-                <p className="font_outfit text-[11px] sm:text-sm  font-light leading-[25px] mt-3 lg:mt-4 xl:mt-[30px] text-black opacity-50 pb-4 lg:pb-6 xl:pb-[30px] border-b-[1px] border-black border-dashed">
-                  Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate
-                  enim tortor nulla facilisi magna. Aenean ac commodo nisi
-                  vitae. In volutpat placerat urna consectetur sollicitudin
-                  maecenas viverra. Viverra egestas
+                <p className=" text-[11px] sm:text-sm  font-light sm:leading-[25px] mt-3 lg:mt-4 xl:mt-[30px] text-black opacity-50 pb-4 lg:pb-6 xl:pb-[30px] border-b-[1px] border-black border-dashed">
+                Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In volutpat placerat urna consectetur sollicitudin maecenas viverra. Viverra egestas 
                 </p>
               </div>
               <div className="flex justify-between -mx-3 mt-4 lg:mt-[30px] flex-col  ">
@@ -51,23 +48,20 @@ function OurService() {
                     <div className="flex items-center justify-between -mx-3 flex-wrap flex-col sm:flex-row ">
                       <div className="w-full sm:w-6/12 px-3 mt-5 xl:mt-0">
                         <div className="border-[0.5px]  border-[#000000B2] p-5 rounded-[20px]">
-                          <p className="text-lg lg:text-xl font_outfit font-medium text-black">
-                            Monitor Your Network
+                          <p className="text-lg lg:text-xl  font-medium text-black">
+                          Monitor Your Network
                           </p>
-                          <p className="text-[11px] sm:text-[12px]  leading-[16px] font-medium font_outfit text-[#00000099] mt-3 lg:mt-[15px]">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard Lorem Ipsum is simply dummy text
-                            of the printing typesetting industry.
+                          <p className="text-[11px] sm:text-[12px]  leading-[16px] font-medium  text-[#00000099] mt-3 lg:mt-[15px]">
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing typesetting industry.
                           </p>
                         </div>
                       </div>
                       <div className="w-full sm:w-6/12 px-3 mt-5 xl:mt-0">
                         <div className="border-[0.5px]  border-[#000000B2] p-5 rounded-[20px]">
-                          <p className="text-lg lg:text-xl font_outfit font-medium text-black">
-                            Monitor Your Network
+                          <p className="text-lg lg:text-xl  font-medium text-black">
+                          Cyber Security
                           </p>
-                          <p className="text-[11px] sm:text-[12px]  leading-[16px] font-medium font_outfit text-[#00000099] mt-3 lg:mt-[15px]">
+                          <p className="text-[11px] sm:text-[12px]  leading-[16px] font-medium  text-[#00000099] mt-3 lg:mt-[15px]">
                             Lorem Ipsum is simply dummy text of the printing and
                             typesetting industry. Lorem Ipsum has been the
                             industry's standard Lorem Ipsum is simply dummy text
@@ -77,10 +71,10 @@ function OurService() {
                       </div>
                       <div className="w-full sm:w-6/12 px-3 mt-5">
                         <div className="border-[0.5px]  border-[#000000B2] p-5 rounded-[20px]">
-                          <p className="text-lg lg:text-xl font_outfit font-medium text-black">
-                            Monitor Your Network
+                          <p className="text-lg lg:text-xl  font-medium text-black">
+                          Data Protection
                           </p>
-                          <p className="text-[11px] sm:text-[12px]  leading-[16px] font-medium font_outfit text-[#00000099] mt-3 lg:mt-[15px]">
+                          <p className="text-[11px] sm:text-[12px]  leading-[16px] font-medium  text-[#00000099] mt-3 lg:mt-[15px]">
                             Lorem Ipsum is simply dummy text of the printing and
                             typesetting industry. Lorem Ipsum has been the
                             industry's standard Lorem Ipsum is simply dummy text
@@ -90,10 +84,10 @@ function OurService() {
                       </div>
                       <div className="w-full sm:w-6/12 px-3 mt-5">
                         <div className="border-[0.5px]  border-[#000000B2] p-5 rounded-[20px]">
-                          <p className="text-lg lg:text-xl font_outfit font-medium text-black">
-                            Monitor Your Network
+                          <p className="text-lg lg:text-xl  font-medium text-black">
+                          Data Encryption
                           </p>
-                          <p className="text-[11px] sm:text-[12px]  leading-[16px] font-medium font_outfit text-[#00000099] mt-3 lg:mt-[15px]">
+                          <p className="text-[11px] sm:text-[12px]  leading-[16px] font-medium  text-[#00000099] mt-3 lg:mt-[15px]">
                             Lorem Ipsum is simply dummy text of the printing and
                             typesetting industry. Lorem Ipsum has been the
                             industry's standard Lorem Ipsum is simply dummy text
@@ -133,13 +127,13 @@ function OurService() {
           alt="design"
         />
         <div className="max-w-[1360px] mx-auto py-7 lg:py-[100px]">
-          <h4 className="text-base font-normal font_inter text-black text-center">
+          <h4 className="text-base font-normal  text-black text-center">
             Our Services
           </h4>
-          <h2 className="font_outfit text-2xl lg:text-5xl font-medium text-center text-black mt-3 lg:mt-5">
-            CybersafeProtect Your Space with the{" "}
+          <h2 className=" text-2xl lg:text-5xl font-normal text-center text-black mt-3 lg:mt-5">
+            Protect Your Space with the{" "}
             <span className="sm:block">
-              power of <span className="text-[#06579C]">Cybersafe</span>
+              power of <span className="text-[#06579C] ">Cybersafe</span>
             </span>
           </h2>
           <div className="flex flex-row flex-wrap px-[-12] md:py-[30px]">
@@ -147,9 +141,9 @@ function OurService() {
               return (
                 <div
                   key={index}
-                  className="w-11/12 mx-auto sm:w-6/12 md:w-4/12 px-3 mt-4 lg:mt-[30px]"
+                  className="w-11/12 mx-auto sm:w-6/12 md:w-4/12 px-3 mt-6 "
                 >
-                  <div className="border-[0.5px] border-[#0000004D] py-5 px-4 xl:px-[30px] rounded-[20px] cursor-pointer ourServie_hover transition-all">
+                  <div className="border-[0.5px] border-[#0000004D] py-5 px-4 xl:px-[30px] rounded-[20px] cursor-pointer ourServie_hover  transition-all">
                     <svg
                       className="mx-auto"
                       width="70"
@@ -183,10 +177,10 @@ function OurService() {
                         fill="black"
                       />
                     </svg>
-                    <h2 className="mt-3 lg:mt-[30px] text-center text-black text-base lg:text-xl font-normal font_outfit">
+                    <h2 className="mt-3 lg:mt-[30px] text-center text-black text-base lg:text-xl font-normal ">
                       {item.title}
                     </h2>
-                    <p className="mt-3 lg:mt-[30px] font_inter text-[10px] lg:text-sm font-normal text-[#00000099]">
+                    <p className="mt-3 lg:mt-[30px]  text-[10px] lg:text-sm font-normal text-[#00000099]">
                       {item.discription}
                     </p>
                   </div>
@@ -222,20 +216,20 @@ function OurService() {
               />
             </div>
             <div className="w-full md:w-7/12 px-3 xl:ps-[88px] mt-5 md:mt-0">
-              <h6 className="font-medium text-xs lg:text-xl font_outfit text-black">
+              <h6 className="font-medium text-xs lg:text-xl  text-black">
                 Trusted Cybersecurity Partner
               </h6>
-              <h1 className="font_outfit font-normal text-lg lg:text-5xl mt-3 lg:mt-4 xl:mt-[30px] text-black  lg:leading-[60px]">
+              <h1 className=" font-normal text-lg lg:text-5xl mt-3 lg:mt-4 xl:mt-[30px] text-black  lg:leading-[60px]">
                 With{" "}
                 <span className="text-[#06579C] font-medium">15 Years</span> of
                 Experience And A Team of Dedication Experts
               </h1>
-              <p className="font-light font_outfit text-[10px] lg:text-sm  opacity-70 text-black mt-3 lg:mt-4 xl:mt-[30px]">
+              <p className="font-light  text-[10px] lg:text-sm  opacity-70 text-black mt-3 lg:mt-4 xl:mt-[30px]">
                 Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim
                 tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In
                 volutpat placerat urna consectet
               </p>
-              <p className="font-normal font_outfit text-[10px] lg:text-sm  opacity-60 text-black mt-4  xl:mt-[50px]">
+              <p className="font-normal  text-[10px] lg:text-sm  opacity-60 text-black mt-4  xl:mt-[50px]">
                 Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim
                 tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In
                 volutpat placerat urna consectetur sollicitudin maecenas
@@ -249,7 +243,7 @@ function OurService() {
                   <div>
                     <img src={Doubletick} alt="image" />
                   </div>
-                  <p className="font_outfit font-normal text-xs sm:text-sm lg:text-base text-black">
+                  <p className=" font-normal text-xs sm:text-sm lg:text-base text-black">
                     Lorem Ipsum is simply dummy text of the printing and
                   </p>
                 </div>
@@ -257,7 +251,7 @@ function OurService() {
                   <div>
                     <img src={Doubletick} alt="image" />
                   </div>
-                  <p className="font_outfit font-normal text-xs sm:text-sm lg:text-base text-black">
+                  <p className=" font-normal text-xs sm:text-sm lg:text-base text-black">
                     Lorem Ipsum is simply dummy text of the printing and
                   </p>
                 </div>
@@ -267,7 +261,7 @@ function OurService() {
                   <div>
                     <img src={Doubletick} alt="image" />
                   </div>
-                  <p className="font_outfit font-normal text-xs sm:text-sm lg:text-base text-black">
+                  <p className=" font-normal text-xs sm:text-sm lg:text-base text-black">
                     Lorem Ipsum is simply dummy text of the printing and
                   </p>
                 </div>
@@ -275,7 +269,7 @@ function OurService() {
                   <div>
                     <img src={Doubletick} alt="image" />
                   </div>
-                  <p className="font_outfit font-normal text-xs sm:text-sm lg:text-base text-black ">
+                  <p className=" font-normal text-xs sm:text-sm lg:text-base text-black ">
                     Lorem Ipsum is simply dummy text of the printing and
                   </p>
                 </div>
@@ -291,23 +285,23 @@ function OurService() {
           alt="design image"
         />
         <div className="bg-[#164343] py-[50px]">
-          <p className="font_outfit text-center text-white font-medium text-xl lg:text-[28px]">
+          <p className=" text-center text-white font-medium text-xl lg:text-[28px]">
             Trusted Cybersecurity Partner
           </p>
           <div className="relative overflow-hidden">
             <div className="flex gap-[50px] mt-[50px] animate-scroll">
-              <img src={Panda} alt="image of company tag" />
-              <img src={Avira} alt="image of company tag" />
-              <img src={Panda} alt="image of company tag" />
-              <img src={Msp} alt="image of company tag" />
-              <img src={Avira} alt="image of company tag" />
-              <img src={Msp} alt="image of company tag" />
-              <img src={Panda} alt="image of company tag" />
-              <img src={Avira} alt="image of company tag" />
-              <img src={Panda} alt="image of company tag" />
-              <img src={Msp} alt="image of company tag" />
-              <img src={Avira} alt="image of company tag" />
-              <img src={Msp} alt="image of company tag" />
+              <img className="w-[40%] lg:w-full" src={Panda} alt="image of company tag" />
+              <img className="w-[40%] lg:w-full" src={Avira} alt="image of company tag" />
+              <img className="w-[40%] lg:w-full" src={Panda} alt="image of company tag" />
+              <img className="w-[40%] lg:w-full" src={Msp} alt="image of company tag" />
+              <img className="w-[40%] lg:w-full" src={Avira} alt="image of company tag" />
+              <img className="w-[40%] lg:w-full" src={Msp} alt="image of company tag" />
+              <img className="w-[40%] lg:w-full" src={Panda} alt="image of company tag" />
+              <img className="w-[40%] lg:w-full" src={Avira} alt="image of company tag" />
+              <img className="w-[40%] lg:w-full" src={Panda} alt="image of company tag" />
+              <img className="w-[40%] lg:w-full" src={Msp} alt="image of company tag" />
+              <img className="w-[40%] lg:w-full" src={Avira} alt="image of company tag" />
+              <img className="w-[40%] lg:w-full" src={Msp} alt="image of company tag" />
             </div>
           </div>
         </div>

@@ -32,8 +32,8 @@ function Testimonials() {
                         <div className="xl:w-2/12 md:w-3/12 sm:w-11/12 w-12/12 px-3 sm:px-0">
                             <div className="bg-[white] rounded-[7px] sm:py-[30px] py-[30px] md:py-[30px] lg:py-[40px] xl:py-[20px] px-[20px] hover:bg-[#06579C] hover:text-[white] duration-300 cursor-pointer">
                                 <img src={john_img} alt="men_img" />
-                                <p className="font_inter font-semibold text-[14px] leading-[16px]  mt-[10px]">John doe</p>
-                                <p className="font_inter font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">CEO - Company</p>
+                                <p className=" font-semibold text-[14px] leading-[16px]  mt-[10px]">John doe</p>
+                                <p className=" font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">CEO - Company</p>
                                 <p className="font_outfit font-[300] text-[14px] leading-[16px]  mt-[10px]">
                                     Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In volutpat placerat urna consectetur sollicitudin maecenas viverra. Viverra egestas amet sed arcu eu. Faucibus enim potenti viverra a auctor quis ipsum integer placerat. Faucibus enim potenti viverra a auctor quis ipsum integer placerat.
                                 </p>
@@ -47,8 +47,8 @@ function Testimonials() {
                                     <div className="flex items-center">
                                         <img src={john_img} alt="men_img" />
                                         <div className="ms-[20px]">
-                                            <p className="font_inter font-semibold text-[14px] leading-[16px] mt-[10px]">John doe</p>
-                                            <p className="font_inter font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">CEO - Company</p>
+                                            <p className=" font-semibold text-[14px] leading-[16px] mt-[10px]">John doe</p>
+                                            <p className=" font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">CEO - Company</p>
                                         </div>
                                     </div>
                                     <p className="font_outfit font-[300] text-[14px] leading-[16px]  mt-[10px]">
@@ -61,8 +61,8 @@ function Testimonials() {
                                     <div className="flex items-center">
                                         <img src={john_img} alt="men_img" />
                                         <div className="ms-[20px]">
-                                            <p className="font_inter font-semibold text-[14px] leading-[16px] mt-[10px]">John doe</p>
-                                            <p className="font_inter font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">CEO - Company</p>
+                                            <p className=" font-semibold text-[14px] leading-[16px] mt-[10px]">John doe</p>
+                                            <p className=" font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">CEO - Company</p>
                                         </div>
                                     </div>
                                     <p className="font_outfit font-normal text-[14px] leading-[16px]  mt-[10px]">
@@ -77,8 +77,8 @@ function Testimonials() {
                         <div className="xl:w-2/12 md:w-3/12 sm:w-11/12 mt-[20px]  md:mt-0 w-12/12  ">
                             <div className="bg-[white] rounded-[7px] md:py-[30px]  py-[30px]   lg:py-[40px] xl:py-[20px] px-[20px] hover:bg-[#06579C] hover:text-[white] duration-300 cursor-pointer">
                                 <img src={john_img} alt="men_img" />
-                                <p className="font_inter font-semibold text-[14px] leading-[16px]  mt-[10px]">John doe</p>
-                                <p className="font_inter font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">CEO - Company</p>
+                                <p className=" font-semibold text-[14px] leading-[16px]  mt-[10px]">John doe</p>
+                                <p className=" font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">CEO - Company</p>
                                 <p className="font_outfit font-[300] text-[14px] leading-[16px]  mt-[10px]">
                                     Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In volutpat placerat urna consectetur sollicitudin maecenas viverra. Viverra egestas amet sed arcu eu. Faucibus enim potenti viverra a auctor quis ipsum integer placerat. Faucibus enim potenti viverra a auctor quis ipsum integer placerat.
                                 </p>
@@ -92,8 +92,8 @@ function Testimonials() {
                                     <div className="flex items-center">
                                         <img src={john_img} alt="men_img" />
                                         <div className="ms-[20px]">
-                                            <p className="font_inter font-semibold text-[14px] leading-[16px] mt-[10px]">John doe</p>
-                                            <p className="font_inter font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">CEO - Company</p>
+                                            <p className=" font-semibold text-[14px] leading-[16px] mt-[10px]">John doe</p>
+                                            <p className=" font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">CEO - Company</p>
                                         </div>
                                     </div>
                                     <p className="font_outfit font-[300] text-[14px] leading-[16px]  mt-[10px]">
@@ -106,8 +106,8 @@ function Testimonials() {
                                     <div className="flex items-center">
                                         <img src={john_img} alt="men_img" />
                                         <div className="ms-[20px]">
-                                            <p className="font_inter font-semibold text-[14px] leading-[16px] mt-[10px]">John doe</p>
-                                            <p className="font_inter font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">CEO - Company</p>
+                                            <p className=" font-semibold text-[14px] leading-[16px] mt-[10px]">John doe</p>
+                                            <p className=" font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">CEO - Company</p>
                                         </div>
                                     </div>
                                     <p className="font_outfit font-[300] text-[14px] leading-[16px]  mt-[10px]">
