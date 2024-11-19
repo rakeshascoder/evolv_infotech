@@ -120,7 +120,7 @@ const Nav = ({ contactsRef }) => {
                     Services
                   </NavLink>
                 </li>
-                <li>
+{/*                 <li>
                   <NavLink
                     onClick={() => navToggel()}
                     to="/clints"
@@ -128,7 +128,7 @@ const Nav = ({ contactsRef }) => {
                   >
                     Clients
                   </NavLink>
-                </li>
+                </li> */}
 {/*                 <li>
                   <NavLink
                     onClick={() => navToggel()}
