@@ -193,11 +193,11 @@ const Footer = () => {
               to="/clints" className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Clients
               </NavLink>
-              <NavLink
+{/*               <NavLink
                 onClick={() =>scrollToTop()}
                 to="testimonials" className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Testimonials
-              </NavLink>
+              </NavLink> */}
             </div>
 
             <div className="xl:w-2/12 lg:w-3/12 md:w-4/12 sm:w-6/12  mt-[50px] lg:mt-0">
