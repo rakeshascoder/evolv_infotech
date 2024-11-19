@@ -129,7 +129,7 @@ const Nav = ({ contactsRef }) => {
                     Clients
                   </NavLink>
                 </li>
-                <li>
+{/*                 <li>
                   <NavLink
                     onClick={() => navToggel()}
                     to="testimonials"
@@ -137,7 +137,7 @@ const Nav = ({ contactsRef }) => {
                   >
                     Testimonials
                   </NavLink>
-                </li>
+                </li> */}
               </ol>
               <div className="mt-7 lg:hidden">
                 <Link
