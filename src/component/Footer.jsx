@@ -188,11 +188,11 @@ const Footer = () => {
               to="/ourService" className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Services
               </NavLink>
-              <NavLink
+{/*               <NavLink
                 onClick={() =>scrollToTop()}
               to="/clints" className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Clients
-              </NavLink>
+              </NavLink> */}
 {/*               <NavLink
                 onClick={() =>scrollToTop()}
                 to="testimonials" className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
