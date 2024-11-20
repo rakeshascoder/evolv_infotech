@@ -12,8 +12,56 @@ import LinkedIn from "../assets/SVG/LinkedIn.svg";
 import GreenCircleDesign from "../assets/PNG/greenCircle.png";
 import OurTeamBgDesign from "../assets/PNG/ourTeamBgDesign.png";
 import Clients from "../component/Clients";
+import Slider from "react-slick";
 
 function AboutUs() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        // For screens larger than 1024px
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,  // Show 4 slides
+          slidesToScroll: 4, // Scroll 4 slides at a time
+        },
+      },
+      {
+        // For screens larger than 1024px
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,  // Show 4 slides
+          slidesToScroll: 2, // Scroll 4 slides at a time
+        },
+      },
+      {
+        // For screens larger than 600px but smaller than 1024px
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2, // Show 2 slides
+          slidesToScroll: 2, // Scroll 2 slides at a time
+        },
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1, // Show 2 slides
+          slidesToScroll: 1, // Scroll 2 slides at a time
+        },
+      },
+      {
+        breakpoint: 0,
+        settings: {
+          slidesToShow: 1, 
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <>
       {/* ----------about us ------------------ */}
@@ -27,7 +75,7 @@ function AboutUs() {
         />
         <div className="max-w-[1360px] mx-auto">
           <div className="flex flex-col-reverse md:flex-row justify-between items-center px-[-12px] py-14 lg:py-28 ">
-            <div className="w-full md:w-7/12 xl:w-6/12 px-3">
+            <div className="w-full md:w-7/12 xl:w-6/12 ps-3">
               <h6 className="font-medium text-xs sm:text-base font_inter text-black mt-7">
                 Why Choose Us
               </h6>
@@ -89,7 +137,7 @@ function AboutUs() {
                   <p className="font_outfit text-xs sm:text-sm font-normal text-black opacity-30">
                     Co founder
                   </p>
-                  <p className="font_pinyon text-base sm:text-[30px] font-normal text-black">
+                  <p className="font_pinyon text-base sm:text-[30px] mt-3 font-normal text-black">
                     John Deo
                   </p>
                 </div>
@@ -119,7 +167,10 @@ function AboutUs() {
         </div>
       </div>
       {/* ------------our team member--------------- */}
-      <div className="relative overflow-hidden">
+
+
+
+      <div className="relative overflow-hidden hidden md:block">
         <img
           className="hidden lg:block absolute  bottom-[25%] left-[0%] -z-10"
           src={OurTeamBgDesign}
@@ -132,7 +183,7 @@ function AboutUs() {
           <h2 className="font_outfit text-2xl lg:text-5xl font-medium text-center text-[#06579C] mt-3 lg:mt-5">
             <span className="text-black">Our</span> Team member’s
           </h2>
-          <p className="font_roboto font-normal text-sm lg:text-lg text-black mt-3 lg:mt-5 text-center">
+          <p className=" font-normal text-sm lg:text-lg text-black mt-3 lg:mt-5 text-center">
             Meet the passionate individuals behind our mission.
           </p>
           <div className="flex flex-wrap  justify-between px-[-12px] flex-row relative">
@@ -175,6 +226,70 @@ function AboutUs() {
               );
             })}
           </div>
+        </div>
+      </div>
+      <div className="relative overflow-hidden md:hidden">
+        <img
+          className="hidden lg:block absolute  bottom-[25%] left-[0%] -z-10"
+          src={OurTeamBgDesign}
+          alt="image for design"
+        />
+        <div className="max-w-[1360px] mx-auto py-7 lg:py-[100px]">
+          <h4 className="text-base font-normal font_inter text-black text-center">
+            Together
+          </h4>
+          <h2 className="font_outfit text-2xl lg:text-5xl font-medium text-center text-[#06579C] mt-3 lg:mt-5">
+            <span className="text-black">Our</span> Team member’s
+          </h2>
+          <p className=" font-normal text-sm lg:text-lg text-black mt-3 lg:mt-5 text-center">
+            Meet the passionate individuals behind our mission.
+          </p>
+            <img
+              className="hidden lg:block absolute  bottom-[0%] left-[20%] -z-10"
+              src={GreenCircleDesign}
+              alt="image for design"
+            />
+
+            
+<Slider {...settings}>
+  {teamMember.map((item, index) => {
+    return (
+      <div
+        key={index}
+        className="w-8/12 sm:w-6/12 md:w-4/12 mx-auto lg:w-3/12 px-3 mt-6 lg:mt-[50px]"
+      >
+        <div className="px-3 py-3  h-full shadow-sm flex flex-col  md:justify-normal">
+          <div>
+            <img
+              className="w-[302px] h-[296px] mx-auto "
+              src={item.image}
+              alt="image of team member"
+            />
+            <h1 className="font_outfit font-semibold text-base lg:text-xl text-center mt-3 lg:mt-[30px]">
+              {item.name}
+            </h1>
+            <p className="font_outfit max-w-[290px] md:w-xfull mx-auto font-normal text-sm xl:text-base mt-3 lg:mt-[30px] text-center px-2 sm:px-3 md:px-0 xl:px-2">
+              {item.discription}
+            </p>
+          </div>
+          <div className="flex items-center justify-center gap-[14px] mt-3 lg:mt-[30px]">
+            <button>
+              <img src={LinkedIn} alt="linkedin icon" />
+            </button>
+            <button>
+              <img src={Xsvg} alt="icon" />
+            </button>
+            <button>
+              <img src={Dribble} alt="icon" />
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  })}
+</Slider>
+
+
         </div>
       </div>
       {/* -----------------what our clients saya------------- */}

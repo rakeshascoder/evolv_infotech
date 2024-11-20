@@ -29,7 +29,7 @@ const Faqs = () => {
                 </svg>
                 </span>
 
-                <p className="font_inter font-normal text-[20px] leading-[26px] text-[#06579C]">FAQS</p>
+                <p className=" font-normal text-[20px] leading-[26px] text-[#06579C]">FAQS</p>
             </div>
 
 
@@ -38,13 +38,13 @@ const Faqs = () => {
                     <p className="font_jomolhari font-normal lg:text-[38px] md:text-[35px] text-[25px] xl:text-[48px] text-[#000000] xl:leading-[62px] lg:mt-[30px] mt-[20px]">
                         A Dedication to Supporting All Aspects of Your Life.
                     </p>
-                    <p className="font_inter font-normal text-[14px] leading-[16px text-[#00000099] lg:mt-[30px] mt-[20px]">
+                    <p className=" font-normal text-[14px] leading-[16px text-[#00000099] lg:mt-[30px] mt-[20px]">
                         Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim tortor nulla
                         magna. Aenean ac commodo nisi vitae. In volutpat placerat urna consectetur sollicitudin maecenas viverra. Viverra egestas amet sed arcu eu. Faucibus enim potenti viverra a auctor quis ipsum integer placerat.
                     </p>
                     <div className="flex  items-center lg:mt-[30px] mt-[20px] justify-center lg:justify-start">
-                        <p className="font_inter font-semibold text-[48px] leading-[62px] text-[#000000] me-[10px]">10+</p>
-                        <p className="font_inter font-normal text-[14px] leading-[16px] text-[#000000]">Years of <br /> experience</p>
+                        <p className=" font-semibold text-[48px] leading-[62px] text-[#000000] me-[10px]">10+</p>
+                        <p className=" font-normal text-[14px] leading-[16px] text-[#000000]">Years of <br /> experience</p>
                     </div>
                 </div>
 

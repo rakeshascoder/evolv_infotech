@@ -23,7 +23,7 @@ const It_solution_service = () => {
 
                         </span>
 
-                        <p className="font_inter font-normal text-[20px] leading-[26px] text-[#06579C]">
+                        <p className=" font-normal text-[20px] leading-[26px] text-[#06579C]">
                             About Evolv Infotech
                         </p>
                     </div>
@@ -31,7 +31,7 @@ const It_solution_service = () => {
 
                     <p className="font_jomolhari md:leading-[62px] font-normal sm:text-[35px] text-[30px] md:text-[48px] text-center md:text-start text-[black] md:mt-[30px] mt-[20px]">We Provide the best IT Solutions services</p>
 
-                    <p className="font_inter font-normal text-[15px] leading-[16px] text-[#00000099] md:mt-[30px] mt-[20px]">
+                    <p className=" font-normal text-[15px] leading-[16px] text-[#00000099] md:mt-[30px] mt-[20px]">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
 
@@ -42,7 +42,7 @@ const It_solution_service = () => {
                             <p className="font_outfit font-normal text-[20px] leading-[26px] text-[#000000]">
                                 Our Mission & Vission
                             </p>
-                            <p className=" font_inter font-normal leading-[16px] text-[14px] text-[#00000099] mt-[10px] w-[93%]">
+                            <p className="  font-normal leading-[16px] text-[14px] text-[#00000099] mt-[10px] w-[93%]">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing typesetting industry.
                             </p>
                         </div>
@@ -50,11 +50,13 @@ const It_solution_service = () => {
                             <p className="font_outfit font-normal text-[20px] sm:leading-[26px] text-[#000000]">
                                 Our Purpose
                             </p>
-                            <p className=" font_inter font-normal leading-[16px] text-[14px] text-[#00000099] mt-[10px] w-[93%]">
+                            <p className="  font-normal leading-[16px] text-[14px] text-[#00000099] mt-[10px] w-[93%]">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing typesetting industry.
                             </p>
                         </div>
                     </div>
+
+                    <button className="text-[18px] p-[10px] bg-[#06579C] text-white rounded-[10px] mt-6">Read More</button>
 
                 </div>
             </div>
