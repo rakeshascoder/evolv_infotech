@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-row flex-wrap items-center lg:justify-around xl:justify-between justify-around lg:pb-[100px] md:pb-[60px] pb-[40px]">
+          <div className="flex flex-row flex-wrap  lg:justify-around xl:justify-between justify-around lg:pb-[100px] md:pb-[60px] pb-[40px]">
             <div className=" lg:w-3/12 md:w-5/12 w-11/12 px-3 text-center md:text-start ">
               <p className=" font-normal text-[24px] leading-[31px] cursor-pointer">
                 EVOLV INFOTECH

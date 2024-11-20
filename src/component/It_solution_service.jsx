@@ -56,7 +56,7 @@ const It_solution_service = () => {
                         </div>
                     </div>
 
-                    <button className="text-[18px] p-[10px] bg-[#06579C] text-white rounded-[10px] mt-6">Read More</button>
+                    {/* <button className="text-[18px] p-[10px] bg-[#06579C] text-white rounded-[10px] mt-6">Read More</button> */}
 
                 </div>
             </div>
