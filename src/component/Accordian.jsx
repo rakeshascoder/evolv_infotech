@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import FaqsIcon from "../assets/SVG/faqsIcon.svg";
 import AddIcon from "../assets/SVG/plusIcon.svg";
-import SubtractIcon from "../assets/SVG/MinusIcon.svg";
+import SubtractIcon from "../assets/SVG/minusIcon.svg";
 import {
   Accordion,
   AccordionHeader,
