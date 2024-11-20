@@ -13,8 +13,8 @@ export const teamMember = [
   {
     image: TeamMember2,
     name: "Jamie Lee",
-    discription:
-      "Jamie fosters a supportive environment for our readers and encourages open discussions.",
+   discription:
+      "Alex shares insights on mental health through engaging articles and personal stories.",
   },
   {
     image: TeamMember3,
@@ -26,7 +26,7 @@ export const teamMember = [
     image: TeamMember4,
     name: "Jordan Brown",
     discription:
-      "Jordan develops strategies to reach and connect with our audience effectively.",
+      "Taylor designs an intuitive interface that enhances user experience and engagement.",
   },
   {
     image: TeamMember1,

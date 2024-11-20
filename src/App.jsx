@@ -9,6 +9,8 @@ import Footer from "./component/Footer";
 import Testimonials from "./pages/Testimonials";
 import Clints from './pages/Clints'
 import GetInTouch from "./pages/GetInTouch";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   

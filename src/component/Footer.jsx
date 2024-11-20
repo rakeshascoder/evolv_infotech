@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="bg-[#FFFFFF] ">
         <div className="max-w-[1360px] px-3 mx-auto">
           <div className="lg:py-[100px] md:py-[60px] py-[40px]">
-            <div className="bg-[#4A52C3] py-[29px] xl:px-[100px] md:px-[30px] px-[30px] rounded-[20px] ">
+            <div className="bg-custom-gradient   py-[29px] xl:px-[100px] md:px-[30px] px-[30px] rounded-[20px] ">
               <div className="flex flex-col lg:flex-row items-center justify-between">
                 <p className="font_outfit font-normal text-[30px] text-center md:text-start lg:text-[35px] xl:text-[48px] xl:leading-[62px] text-[#FFFFFF] lg:w-[50%] lg:me-[30px]">
                   Subscribe To Our News Letter
@@ -39,15 +39,15 @@ const Footer = () => {
 
           <div className="flex flex-row flex-wrap items-center lg:justify-around xl:justify-between justify-around lg:pb-[100px] md:pb-[60px] pb-[40px]">
             <div className=" lg:w-3/12 md:w-5/12 w-11/12 px-3 text-center md:text-start ">
-              <p className="font_jacques font-normal text-[24px] leading-[31px] cursor-pointer">
+              <p className=" font-normal text-[24px] leading-[31px] cursor-pointer">
                 EVOLV INFOTECH
               </p>
-              <p className="font_inter text-[14px] font-normal leading-[16px] mt-[30px] text-[#00000099]">
+              <p className=" text-[14px] font-normal leading-[16px] mt-[30px] text-[#00000099]">
                 Cybersecurity is crucial in today's digital age, where many
                 individuals and organizations store a significant amount of
                 sensitive data on computers...
               </p>
-              <p className="font_inter font-normal text-[16px] leading-[19px] text-[#000000B2] mt-[30px]">
+              <p className=" font-normal text-[16px] leading-[19px] text-[#000000B2] mt-[30px]">
                 FOLLOW US
               </p>
 
@@ -140,30 +140,30 @@ const Footer = () => {
             <div className="xl:w-2/12 lg:w-3/12  md:w-4/12 w-6/12 mt-[50px] sm:w-4/12 md:mt-0  xl:text-start">
              <div className="ms-10 ">
 
-             <p className="font_inter font-medium text-[14px] md:text-[16px] leading-[21px] text-[#000000B2]">
+             <p className=" font-medium text-[14px] md:text-[16px] leading-[21px] text-[#000000B2]">
                 Category
               </p>
 
-              <p className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[30px] cursor-pointer hover:translate-x-[20px] duration-500">
+              <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[30px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Tech Solutions
               </p>
-              <p className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+              <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Digital Marketing
               </p>
-              <p className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+              <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Web Development
               </p>
-              <p className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+              <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 IT Consulting
               </p>
-              <p className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+              <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Data Analytics
               </p>
              </div>
             </div>
 
             <div className="xl:w-2/12 lg:w-3/12 md:w-5/12 sm:w-4/12 w-4/12 mt-[50px] lg:mt-0 flex flex-col">
-              <p className="font_inter font-medium text-[14px] md:text-[16px] leading-[21px] text-[#000000B2]">
+              <p className=" font-medium text-[14px] md:text-[16px] leading-[21px] text-[#000000B2]">
                 Quicks Links
               </p>
 
@@ -172,38 +172,38 @@ const Footer = () => {
                to="/" 
               //  ref={()=>scrollTopSection(2)}
             
-                className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[30px] cursor-pointer hover:translate-x-[20px] duration-500"
+                className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[30px] cursor-pointer hover:translate-x-[20px] duration-500"
               >
                 Home
               </NavLink>
               <NavLink
                 onClick={() =>scrollToTop()}
-               to="/aboutUs" className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+               to="/aboutUs" className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 About Us
               </NavLink>
               <NavLink
                 onClick={() =>scrollToTop()}
-              to="/ourService" className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+              to="/ourService" className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Services
               </NavLink>
-              <NavLink
+{/*               <NavLink
                 onClick={() =>scrollToTop()}
-              to="/clints" className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+              to="/clints" className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Clients
-              </NavLink>
-              <NavLink
+              </NavLink> */}
+{/*               <NavLink
                 onClick={() =>scrollToTop()}
-                to="testimonials" className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+                to="testimonials" className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Testimonials
-              </NavLink>
+              </NavLink> */}
             </div>
 
-            <div className="xl:w-2/12 lg:w-3/12 md:w-4/12 sm:w-6/12  mt-[50px] lg:mt-0">
-              <p className="font_inter font-medium text-[14px] md:text-[16px] text-center sm:text-start leading-[21px] text-[#000000B2]">
+            <div className="xl:w-2/12 lg:w-3/12 md:w-4/12 sm:w-6/12  mt-[50px] lg:mt-0 sm:ms-[100px] md:ms-0">
+              <p className=" font-medium text-[14px] md:text-[16px] text-center  sm:text-start leading-[21px] text-[#000000B2]">
                 Address
               </p>
               <div className="mt-5 lg:mt-[30px]">
-                <p className="font_inter font-medium text-[14px] md:text-[16px] text-center sm:text-start  leading-[21px] text-[#000000B2] ">
+                <p className=" font-medium text-[14px] md:text-[16px] text-center sm:text-start  leading-[21px] text-[#000000B2] ">
                   Colorado Boulder Centre :
                 </p>
 
@@ -234,13 +234,13 @@ const Footer = () => {
                       />
                     </svg>
                   </span>
-                  <p className="font_inter font-normal  text-[12px]  md:text-[14px] leading-[16px] text-[#00000099]">
+                  <p className=" font-normal  text-[12px]  md:text-[14px] leading-[16px] text-[#00000099]">
                     121 King Street Melbourne, <br /> 3000, Australia
                   </p>
                 </div>
               </div>
               <div className="mt-[30px]">
-                <p className="font_inter font-medium text-[14px] text-center sm:text-start leading-[21px] text-[#000000B2] ">
+                <p className=" font-medium text-[14px] text-center sm:text-start leading-[21px] text-[#000000B2] ">
                   Colorado Boulder Centre :
                 </p>
 
@@ -271,7 +271,7 @@ const Footer = () => {
                       />
                     </svg>
                   </span>
-                  <p className="font_inter font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099]">
+                  <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099]">
                     121 King Street Melbourne, <br /> 3000, Australia
                   </p>
                 </div>

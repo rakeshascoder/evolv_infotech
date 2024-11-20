@@ -102,7 +102,7 @@ function Contacts() {
                 </label>
               </div>
 
-              <button className="text-[14px] font-normal md:text-base  font_inter text-white bg-[#06579C] rounded-[10px] py-2 px-2 lg:py-[10px] lg:px-[20px] mt-3 lg:mt-[30px]">
+              <button className="text-[14px] font-normal md:text-base   text-white bg-[#06579C] rounded-[10px] py-2 px-2 lg:py-[10px] lg:px-[20px] mt-3 lg:mt-[30px]">
                 Send Message
               </button>
             </form>

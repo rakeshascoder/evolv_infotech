@@ -47,9 +47,9 @@ const Herosection = () => {
         </div>
 
         <div>
-          <p className="font_jomolhari lg:text-[72px]  md:text-[50px] sm:text-[40px] text-[30px] lg:leading-[89px] text-[black] font-normal w-[80%] m-auto mt-[20px]">
-            IT consulting service for
-            <span className="text-[#06579C]  font-bold">Your Business</span>
+          <p className="font_jomolhari lg:text-[72px]  md:text-[50px] sm:text-[40px] text-[30px] lg:leading-[89px] text-[black] font-normal w-[76%] m-auto mt-[20px] font_Times_New_Roman ">
+            IT consulting service for 
+           <span className="text-[#06579C]  font-medium font_Times_New_Roman"> Your Business</span>
           </p>
         </div>
 
@@ -67,10 +67,10 @@ const Herosection = () => {
         <div className="flex gap-5 justify-center lg:justify-between flex-wrap lg:text-start text-center ">
           <div className="flex items-center ">
             <div className="max-lg:p x-5 ">
-              <p className="font_inter font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
+              <p className=" font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
                 36+
               </p>
-              <p className="font_inter leading-[16px] text-[14px] font-medium mt-[5px]  text-[white] whitespace-nowrap">
+              <p className=" leading-[16px] text-[14px] font-medium mt-[5px]  text-[white] whitespace-nowrap">
                 YEAR’S EXPERIENCE
               </p>
             </div>
@@ -79,10 +79,10 @@ const Herosection = () => {
 
           <div className="flex items-center ">
             <div className="max-lg:p x-5 ">
-              <p className="font_inter font-semibold leading-[62px]  lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
+              <p className=" font-semibold leading-[62px]  lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
                 645+
               </p>
-              <p className="font_inter leading-[16px] text-[14px] font-medium mt-[5px]  text-[white] whitespace-nowrap">
+              <p className=" leading-[16px] text-[14px] font-medium mt-[5px]  text-[white] whitespace-nowrap">
                 CYBER SECURITY EXPERTS
               </p>
             </div>
@@ -91,10 +91,10 @@ const Herosection = () => {
 
           <div className="flex items-center ">
             <div className="max-lg:p x-5 ">
-              <p className="font_inter font-semibold leading-[62px]  lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
+              <p className=" font-semibold leading-[62px]  lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
                 100%
               </p>
-              <p className="font_inter leading-[16px] text-[14px] font-medium mt-[5px]  text-[white] whitespace-nowrap">
+              <p className=" leading-[16px] text-[14px] font-medium mt-[5px]  text-[white] whitespace-nowrap">
                 CUSTOMER SATIFICATION
               </p>
             </div>
@@ -103,10 +103,10 @@ const Herosection = () => {
 
           <div className="flex items-center ">
             <div className="max-lg:p x-5 ">
-              <p className="font_inter font-semibold leading-[62px]  lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
+              <p className=" font-semibold leading-[62px]  lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
                 35 M
               </p>
-              <p className="font_inter leading-[16px] text-[14px] font-medium mt-[5px]  text-[white] whitespace-nowrap">
+              <p className=" leading-[16px] text-[14px] font-medium mt-[5px]  text-[white] whitespace-nowrap">
                 CUSTOMER SERVED GLOBALY
               </p>
             </div>

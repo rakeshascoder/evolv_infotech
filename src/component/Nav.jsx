@@ -40,7 +40,7 @@ const Nav = () => {
             <div>
               <NavLink
                 to="/"
-                className="text-[#000000] font-normal text-[24px]  leading-[26.17px] font_Orelega whitespace-nowrap cursor-pointer"
+                className="text-[#000000] font-normal text-[24px]  leading-[26.17px]  whitespace-nowrap cursor-pointer"
               >
                 Evolv Infotech
               </NavLink>
@@ -51,44 +51,49 @@ const Nav = () => {
                 !toggleNav ? "-left-full" : "left-0"
               }`}
             >
-              <div
-                onClick={handleToggleNav}
-                className="flex justify-end lg:hidden  cursor-pointer"
-              >
-                <div
-                  className=" absolute top-[50px] right-[40px] "
-                  style={{
-                    transform: toggleNav ? "rotate(45deg)" : "rotate(0deg)",
-                    transition: "transform 0.3s",
-                  }}
-                >
-                  <span
-                    style={{
-                      transform: toggleNav
-                        ? "rotate(-5deg) translate(10px, 5px)"
-                        : "rotate(0deg)",
-                      transition: "transform 0.3s",
-                    }}
-                    className="block w-8 h-[3px] bg-black mb-[6px]"
-                  ></span>
-                  <span
-                    style={{
-                      opacity: toggleNav ? 0 : 1,
-                      transition: "opacity 0.3s",
-                    }}
-                    className="block w-8 h-[3px] bg-black mb-[6px]"
-                  ></span>
-                  <span
-                    style={{
-                      transform: toggleNav
-                        ? "rotate(-80deg) translate(14px, 8px)"
-                        : "rotate(0deg)",
-                      transition: "transform 0.3s",
-                    }}
-                    className="block w-8 h-[3px] bg-black"
-                  ></span>
-                </div>
-              </div>
+             <div
+      onClick={handleToggleNav}
+      className="flex justify-end lg:hidden cursor-pointer"
+    >
+      <div
+        className="absolute top-[50px] right-[50px]"
+        style={{
+          transform: toggleNav ? "rotate(45deg)" : "rotate(0deg)",
+          transition: "transform 0.3s",
+        }}
+      >
+        {/* First Bar */}
+        <span
+          style={{
+            transform: toggleNav
+              ? "rotate(2deg) translate(-2px, 2px)"
+              : "rotate(0deg)",
+            transition: "transform 0.3s",
+          }}
+          className="block w-8 h-[3px] bg-black mb-[6px]"
+        ></span>
+
+        {/* Second Bar */}
+        <span
+          style={{
+            opacity: toggleNav ? 0 : 1,
+            transition: "opacity 0.3s",
+          }}
+          className="block w-8 h-[3px] bg-black mb-[6px]"
+        ></span>
+
+        {/* Third Bar */}
+        <span
+          style={{
+            transform: toggleNav
+              ? "rotate(-92deg) translate(16px,-2px)"
+              : "rotate(0deg)",
+            transition: "transform 0.3s",
+          }}
+          className="block w-8 h-[3px] bg-black"
+        ></span>
+      </div>
+    </div>
               <ol className="flex max-lg:flex-col gap-10 ">
                 <li>
                   <NavLink
@@ -117,7 +122,7 @@ const Nav = () => {
                     Services
                   </NavLink>
                 </li>
-                <li>
+{/*                 <li>
                   <NavLink
                     onClick={() => navToggel()}
                     to="/clints"
@@ -125,8 +130,8 @@ const Nav = () => {
                   >
                     Clients
                   </NavLink>
-                </li>
-                <li>
+                </li> */}
+{/*                 <li>
                   <NavLink
                     onClick={() => navToggel()}
                     to="testimonials"
@@ -134,9 +139,9 @@ const Nav = () => {
                   >
                     Testimonials
                   </NavLink>
-                </li>
+                </li> */}
               </ol>
-              <div className="mt-7 lg:hidden">
+              <div className="mt-12 lg:hidden">
                 <Link
                 to="/getINTouch"
                   onClick={() => (navToggel())

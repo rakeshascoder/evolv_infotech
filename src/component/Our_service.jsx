@@ -21,10 +21,10 @@ const Our_service = () => {
                         </svg>
                         </span>
 
-                        <p className="font_inter font-normal text-[20px] leading-[26px] text-[#06579C]">Our Services</p>
+                        <p className=" font-normal text-[20px] leading-[26px] text-[#06579C]">Our Services</p>
                     </div>
                     <p className="font_jomolhari font-normal xl:text-[48px] md:text-[40px] text-[25px] xl:leading-[62px] text-[#000000] md:mt-[30px] mt-[20px] lg:w-[85%]">Our clients are the best at IT Management</p>
-                    <p className="font_inter font-normal text-[14px] leading-[16px] text-[#00000099] md:mt-[30px] mt-[20px]">
+                    <p className=" font-normal text-[14px] leading-[16px] text-[#00000099] md:mt-[30px] mt-[20px]">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
 
@@ -42,7 +42,7 @@ const Our_service = () => {
                             <div className="me-[24px]"><img className="start_img_border m-auto   p-[10px] rounded-[50%] " src={start_img} alt="star img" /></div>
                             <div className="text-center sm:text-start">
                                 <p className="font_outfit font-normal text-[20px] leading-[26px] mt-[10px] sm:mt-[0]">Network Security</p>
-                                <h1 className="font_inter font-normal text-[12px] leading-[14px] mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+                                <h1 className=" font-normal text-[12px] leading-[14px] mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const Our_service = () => {
                             <div className="me-[24px]"><img className="start_img_border  m-auto  p-[10px] rounded-[50%] " src={start_img} alt="star img" /></div>
                             <div className="text-center sm:text-start">
                                 <p className="font_outfit font-normal text-[20px] leading-[26px] mt-[10px] sm:mt-[0]">Application Security</p>
-                                <p className="font_inter font-normal text-[12px] leading-[14px]  mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className=" font-normal text-[12px] leading-[14px]  mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ const Our_service = () => {
                             <div className="me-[24px]"><img className="start_img_border  m-auto  p-[10px] rounded-[50%] " src={start_img} alt="star img" /></div>
                             <div className="text-center sm:text-start">
                                 <p className="font_outfit font-normal text-[20px] leading-[26px] mt-[10px] sm:mt-[0]">Security Awareness</p>
-                                <p className="font_inter font-normal text-[12px] leading-[14px]  mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className=" font-normal text-[12px] leading-[14px]  mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ const Our_service = () => {
                             <div className="me-[24px]"><img className="start_img_border  m-auto  p-[10px] rounded-[50%] " src={start_img} alt="star img" /></div>
                             <div className="text-center sm:text-start">
                                 <p className="font_outfit font-normal text-[20px] leading-[26px] mt-[10px] sm:mt-[0]">Cloud Security</p>
-                                <p className="font_inter font-normal text-[12px] leading-[14px]  mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p className=" font-normal text-[12px] leading-[14px]  mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             </div>
                         </div>
                     </div>
