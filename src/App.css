@@ -176,12 +176,14 @@ ol li a {
   background-image: url(../src/assets/PNG/header_bg_aboutUs.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .ourServie_bg_image {
   background-image: url(../src/assets/PNG/ourServicebg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
   width: 100%;
 }
 .testimonials_bg_image {
@@ -198,6 +200,7 @@ ol li a {
   background-image: url(../src/assets/PNG/contactBg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .ourServie_hover{
