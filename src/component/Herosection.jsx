@@ -3,6 +3,7 @@ import business_right_circle from "../assets/PNG/business_right_circle.png";
 import business_left_circle from "../assets/PNG/business_left_circle.png";
 import men_img from "../assets/PNG/men_img.png";
 import circle from "../assets/PNG/circle.png";
+import CountUp from "react-countup";
 
 const Herosection = () => {
   const circleRef = useRef(null);
@@ -99,53 +100,64 @@ const Herosection = () => {
           </div>
         </div>
       </div>
+
       <div className="bg-[#164343] py-[26px] xl:px-[120px] lg:px-10 px-3 translate-y-[-33px] w-full">
-        <div className="flex gap-5 justify-center lg:justify-between flex-wrap lg:text-start text-center">
-          <div className="flex items-center">
-            <div className="max-lg:p x-5">
-              <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
-                36+
-              </p>
-              <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
-                YEAR’S EXPERIENCE
-              </p>
-            </div>
+      <div className="flex gap-5 justify-center lg:justify-between flex-wrap lg:text-start text-center">
+        {/* First Stat */}
+        <div className="flex items-center">
+          <div className="max-lg:px-5">
+            <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
+              <CountUp start={0} end={36} duration={2.5} suffix="+" />
+            </p>
+            <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
+              YEAR’S EXPERIENCE
+            </p>
           </div>
-          <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
-          <div className="flex items-center">
-            <div className="max-lg:p x-5">
-              <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
-                645+
-              </p>
-              <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
-                CYBER SECURITY EXPERTS
-              </p>
-            </div>
+        </div>
+
+        <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
+
+        {/* Second Stat */}
+        <div className="flex items-center">
+          <div className="max-lg:px-5">
+            <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
+              <CountUp start={0} end={645} duration={2.5} suffix="+" />
+            </p>
+            <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
+              CYBER SECURITY EXPERTS
+            </p>
           </div>
-          <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
-          <div className="flex items-center">
-            <div className="max-lg:p x-5">
-              <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
-                100%
-              </p>
-              <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
-                CUSTOMER SATISFACTION
-              </p>
-            </div>
+        </div>
+
+        <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
+
+        {/* Third Stat */}
+        <div className="flex items-center">
+          <div className="max-lg:px-5">
+            <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
+              <CountUp start={0} end={100} duration={2.5} suffix="%" />
+            </p>
+            <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
+              CUSTOMER SATISFACTION
+            </p>
           </div>
-          <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
-          <div className="flex items-center">
-            <div className="max-lg:p x-5">
-              <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
-                35 M
-              </p>
-              <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
-                CUSTOMERS SERVED GLOBALLY
-              </p>
-            </div>
+        </div>
+
+        <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
+
+        {/* Fourth Stat */}
+        <div className="flex items-center">
+          <div className="max-lg:px-5">
+            <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
+              <CountUp start={0} end={35} duration={2.5} suffix=" M" />
+            </p>
+            <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
+              CUSTOMER SERVED GLOBALLY
+            </p>
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

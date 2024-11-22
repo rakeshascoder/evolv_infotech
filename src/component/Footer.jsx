@@ -2,9 +2,9 @@ import React, { useContext, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
- const scrollToTop = () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-};
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <div>
       <div className="bg-[#FFFFFF] ">
@@ -39,9 +39,13 @@ const Footer = () => {
 
           <div className="flex flex-row flex-wrap  lg:justify-around xl:justify-between justify-around lg:pb-[100px] md:pb-[60px] pb-[40px]">
             <div className=" lg:w-3/12 md:w-5/12 w-11/12 px-3 text-center md:text-start ">
-              <p className=" font-normal text-[24px] leading-[31px] cursor-pointer">
+              <NavLink
+              to="/"
+                onClick={() => scrollToTop()}
+                className=" font-normal text-[24px] leading-[31px] cursor-pointer"
+              >
                 EVOLV INFOTECH
-              </p>
+              </NavLink>
               <p className=" text-[14px] font-normal leading-[16px] mt-[30px] text-[#00000099]">
                 Cybersecurity is crucial in today's digital age, where many
                 individuals and organizations store a significant amount of
@@ -138,28 +142,27 @@ const Footer = () => {
             </div>
 
             <div className="xl:w-2/12 lg:w-3/12  md:w-4/12 w-6/12 mt-[50px] sm:w-4/12 md:mt-0  xl:text-start">
-             <div className="ms-10 ">
+              <div className="ms-10 ">
+                <p className=" font-medium text-[14px] md:text-[16px] leading-[21px] text-[#000000B2]">
+                  Category
+                </p>
 
-             <p className=" font-medium text-[14px] md:text-[16px] leading-[21px] text-[#000000B2]">
-                Category
-              </p>
-
-              <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[30px] cursor-pointer hover:translate-x-[20px] duration-500">
-                Tech Solutions
-              </p>
-              <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
-                Digital Marketing
-              </p>
-              <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
-                Web Development
-              </p>
-              <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
-                IT Consulting
-              </p>
-              <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
-                Data Analytics
-              </p>
-             </div>
+                <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[30px] cursor-pointer hover:translate-x-[20px] duration-500">
+                  Tech Solutions
+                </p>
+                <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+                  Digital Marketing
+                </p>
+                <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+                  Web Development
+                </p>
+                <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+                  IT Consulting
+                </p>
+                <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+                  Data Analytics
+                </p>
+              </div>
             </div>
 
             <div className="xl:w-2/12 lg:w-3/12 md:w-5/12 sm:w-4/12 w-4/12 mt-[50px] lg:mt-0 flex flex-col">
@@ -168,30 +171,32 @@ const Footer = () => {
               </p>
 
               <NavLink
-       onClick={() =>scrollToTop()}
-               to="/" 
-              //  ref={()=>scrollTopSection(2)}
-            
+                to="/"
+                onClick={() => scrollToTop()}
                 className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[30px] cursor-pointer hover:translate-x-[20px] duration-500"
               >
                 Home
               </NavLink>
               <NavLink
-                onClick={() =>scrollToTop()}
-               to="/aboutUs" className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+                onClick={() => scrollToTop()}
+                to="/aboutUs"
+                className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500"
+              >
                 About Us
               </NavLink>
               <NavLink
-                onClick={() =>scrollToTop()}
-              to="/ourService" className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
+                onClick={() => scrollToTop()}
+                to="/ourService"
+                className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500"
+              >
                 Services
               </NavLink>
-{/*               <NavLink
+              {/*               <NavLink
                 onClick={() =>scrollToTop()}
               to="/clints" className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Clients
               </NavLink> */}
-{/*               <NavLink
+              {/*               <NavLink
                 onClick={() =>scrollToTop()}
                 to="testimonials" className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
                 Testimonials
