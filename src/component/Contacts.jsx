@@ -86,7 +86,7 @@ function Contacts() {
 
                 <div className="w-full mt-5">
                   <textarea
-                    className="h-[70px] md:h-[120px] w-full py-2 md:py-[17.5px] px-[10px] rounded-md bg-white font_outfit outline-none placeholder:text-[#00000099] text-sm md:textbase font-normal border-[0.5px] border-[#0000004D] md:border-none"
+                    className="h-[70px] resize-none md:h-[120px] w-full py-2 md:py-[17.5px] px-[10px] rounded-md bg-white font_outfit outline-none placeholder:text-[#00000099] text-sm md:textbase font-normal border-[0.5px] border-[#0000004D] md:border-none"
                     placeholder="type here !e"
                   ></textarea>
                 </div>
