@@ -249,6 +249,8 @@ width: 0;
   
   transition:  700ms ; 
 }
+
+
 .border-hover:hover::after {
   width: 100%; /* Expand the background on hover */
   height: 100%;
@@ -258,3 +260,12 @@ width: 0;
 
 
 
+
+
+
+.dhover{
+  filter: grayscale(100);
+}
+.dhover:hover{
+  filter: grayscale(0);
+}
