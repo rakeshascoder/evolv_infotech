@@ -40,12 +40,13 @@ const Managment = () => {
                 <div>
                     <div className="flex flex-row flex-wrap justify-center lg:mt-[30px]">
                         {cards.map((card, i) => (
-                            <div key={i} className="lg:w-4/12  md:w-6/12 sm:w-9/12 w-12/12  px-3 card cursor-pointer mt-[30px] lg:mt-0 ">
-                                <div className="bg-[#FFFFFF] text-center shadow-[0px_4px_25px_0px_#0000001A] card_border rounded-[20px] py-[20px] px-[30px]">
-                                    <img className="m-auto" src={card.img} alt="card img" />
+                            <div key={i} className="lg:w-4/12 h-full  md:w-6/12 sm:w-9/12 w-12/12  px-3 card cursor-pointer mt-[30px] lg:mt-0 ">
+                            
+                                <div className="bg-[#FFFFFF] flex flex-col justify-between text-center shadow-[0px_4px_25px_0px_#0000001A] card_border rounded-[20px] py-[20px] px-[30px]">
+                                    <img className="m-auto w-[52px]" src={card.img} alt="card img" />
                                     <p className="font_outfit font-normal text-[20px] leading-[26px] text-[#000000] mt-[24px]">{card.heading}</p>
 
-                                    <p className=" font-normal text-[14px] leading-[16px] text-[#00000099] mt-[24px]">{card.peragraph}</p>
+                                    <p className=" font-normal  text-[14px] leading-[16px] text-[#00000099] mt-[24px]">{card.peragraph}</p>
 
                                    
                                 </div>
