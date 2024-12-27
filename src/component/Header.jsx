@@ -6,7 +6,7 @@ function Header({  title, about, span }) {
   return (
     <>
       <div
-        className={`${location.pathname === "/aboutUs" ? "header_bg_image" :location.pathname === "/ourService"?"ourServie_bg_image":location.pathname === "/testimonials"?"testimonials_bg_image":location.pathname === "/clints"?"clints_bg_image":location.pathname==="/getINTouch"?"contact_bg_image":""} h-[260px] sm:h-[300px] md:h-[360px] lg:h-[450px] absolute top-[0px] w-full -z-[1] `}
+        className={`${location.pathname === "/aboutUs" ? "header_bg_image" :location.pathname === "/ourService"?"ourServie_bg_image":location.pathname === "/ourSolutions"?"ourServie_bg_image":location.pathname === "/testimonials"?"testimonials_bg_image":location.pathname === "/clints"?"clints_bg_image":location.pathname==="/getINTouch"?"contact_bg_image":""} h-[260px] sm:h-[300px] md:h-[360px] lg:h-[450px] absolute top-[0px] w-full -z-[1] `}
       >
         <div className="flex flex-col items-center justify-center h-full">
           <div className="flex items-center  mt-[80px] md:mt-[50px] bg-[#0000001A] rounded-[20px] py-[11px] px-[10px]">

@@ -25,6 +25,12 @@
   background-size: cover;
   background-attachment: fixed;
 }
+.valuebg_img {
+  background-image: url(../src/assets/PNG/Valuesbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .card_border {
   border: 1px solid #06579c;
 }

@@ -32,7 +32,11 @@ const It_solution_service = () => {
                     <p className="font_jomolhari md:leading-[62px] font-normal sm:text-[35px] text-[30px] md:text-[48px] text-center md:text-start text-[black] md:mt-[30px] mt-[20px]">We Provide the best IT Solutions services</p>
 
                     <p className=" font-normal text-[15px] leading-[16px] text-[#00000099] md:mt-[30px] mt-[20px]">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    At Evolv, we are passionate about empowering businesses through seamless, innovative IT system integration. We specialize in connecting diverse technologies, platforms, and processes to create customized solutions that drive efficiency, improve productivity, and foster growth.
+                    </p>
+                    <p className=" font-normal text-[15px] leading-[16px] text-[#00000099] md:mt-[30px] mt-[20px]">
+                    As a dynamic and forward-thinking systems integrator, our mission is to simplify complex IT environments for organizations of all sizes. Whether you’re looking to integrate cloud solutions, optimize your enterprise applications, or streamline your infrastructure, we provide end-to-end services that ensure your systems work together as one cohesive, high-performing ecosystem.
+
                     </p>
 
 
@@ -43,7 +47,7 @@ const It_solution_service = () => {
                                 Our Mission & Vission
                             </p>
                             <p className="  font-normal leading-[16px] text-[14px] text-[#00000099] mt-[10px] w-[93%]">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing typesetting industry.
+                            To empower individuals and businesses with robust cyber security solutions, ensuring safe and resilient digital environments in an ever-evolving cyber landscape. To be a global leader in cyber security, fostering trust and innovation by safeguarding digital ecosystems for a secure future.
                             </p>
                         </div>
                         <div className="mt-[15px] sm:mt-[0]">
@@ -51,7 +55,7 @@ const It_solution_service = () => {
                                 Our Purpose
                             </p>
                             <p className="  font-normal leading-[16px] text-[14px] text-[#00000099] mt-[10px] w-[93%]">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing typesetting industry.
+                            Our purpose is to safeguard digital ecosystems by providing cutting-edge cybersecurity solutions, ensuring data privacy, and building trust in an ever-connected world.
                             </p>
                         </div>
                     </div>

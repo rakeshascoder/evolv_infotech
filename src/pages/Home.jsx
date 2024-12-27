@@ -7,6 +7,8 @@ import Happy_customer from "../component/Happy_customer";
 import Clients from "../component/Clients";
 import Contacts from "../component/Contacts";
 import Accordian from "../component/Accordian";
+import Values from "../component/Values";
+import OurExpertise from "./OurExpertise";
 
 function Home() {
   return (
@@ -15,7 +17,9 @@ function Home() {
       <It_solution_service />
       <Managment />
       <Our_service />
-      <Happy_customer />
+      <Values/>
+      <OurExpertise/>
+      {/* <Happy_customer /> */}
       <Accordian/>
       <Clients />
       <Contacts />

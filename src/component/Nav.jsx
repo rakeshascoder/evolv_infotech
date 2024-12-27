@@ -81,6 +81,15 @@ const Nav = () => {
                     Services
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink
+                    onClick={() =>navToggel()  }
+                    to="/ourSolutions"
+                    className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
+                  >
+                    solutions
+                  </NavLink>
+                </li>
                 {/*                 <li>
                   <NavLink
                     onClick={() => navToggel()}

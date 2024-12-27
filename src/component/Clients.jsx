@@ -91,11 +91,7 @@ const Clients = () => {
             What Our Clients Says
           </p>
           <p className=" font-normal text-[14px] leading-[14px] text-[#FFFFFF99] lg:w-[56%] md:w-[70%] w-[100%] text-center m-auto lg:mt-[30px] mt-[20px]">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard Lorem
-            Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+          Our clients trust us for top-notch cybersecurity solutions, praising our expertise in safeguarding their digital assets. From personalized threat prevention to rapid response, they commend our proactive approach, reliability, and cutting-edge technology. With unwavering dedication, we ensure their peace of mind in a constantly evolving cyber threat landscape
           </p>
           <div className="hidden md:flex  flex-row flex-wrap items-center justify-center   mt-[30px] ">
             <div className="xl:w-2/12 md:w-3/12 sm:w-11/12 w-12/12 px-3 sm:px-0 z-40">
