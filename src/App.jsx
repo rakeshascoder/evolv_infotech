@@ -11,6 +11,7 @@ import Clints from './pages/Clints'
 import GetInTouch from "./pages/GetInTouch";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import OurSolutions from "./pages/OurSolutions";
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/aboutUs" element={<AboutUs />} />
           <Route path="/ourService" element={<OurService />} />
+          <Route path="/ourSolutions" element={<OurSolutions/>} />
           <Route path="/clints" element={<Clints />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/getINTouch" element={<GetInTouch/>}/>

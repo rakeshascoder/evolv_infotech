@@ -36,11 +36,7 @@ const Our_service = () => {
               Our clients are the best at IT Management
             </p>
             <p className=" font-normal text-[14px] leading-[16px] text-[#00000099] md:mt-[30px] mt-[20px]">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard Lorem
-              Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry.
+            "Our clients trust us to deliver exceptional IT management solutions tailored to their unique needs. With a focus on innovation and efficiency, we ensure seamless operations and consistent growth. Let us help you achieve your business goals with our expert services."
             </p>
 
             <div className="mt-[30px]">
@@ -57,13 +53,7 @@ const Our_service = () => {
           <div className="lg:w-6/12  lg:ps-[30px] md:9/12 mt-[40px] ">
             <div className="bg-[#FFFFFF] group shadow-[0px_4px_25px_0px_#0000001A] py-[20px] px-[30px] rounded-[20px] hover:bg-[#06579C] duration-300 hover:text-[white]  cursor-pointer ">
               <div className="sm:flex items-center ">
-                {/* <div className="me-[24px]">
-                            <img 
-  src={start_img} className="dhover"
-  alt="star img" 
- 
-/>
-                            </div> */}
+     
                 <div className="group">
                   <img
                     src={start_img}
@@ -76,8 +66,7 @@ const Our_service = () => {
                     Network Security
                   </p>
                   <h1 className=" font-normal text-[12px] leading-[14px] mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                  Protect networks from unauthorized access, ensuring confidentiality, integrity, and availability of data.
                   </h1>
                 </div>
               </div>
@@ -97,8 +86,7 @@ const Our_service = () => {
                     Application Security
                   </p>
                   <p className=" font-normal text-[12px] leading-[14px]  mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                  Safeguard software applications against vulnerabilities, enhancing reliability and preventing data breaches.
                   </p>
                 </div>
               </div>
@@ -118,8 +106,7 @@ const Our_service = () => {
                     Security Awareness
                   </p>
                   <p className=" font-normal text-[12px] leading-[14px]  mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                  Educate individuals about cybersecurity threats, promoting proactive measures to protect sensitive information.
                   </p>
                 </div>
               </div>
@@ -139,8 +126,7 @@ const Our_service = () => {
                     Cloud Security
                   </p>
                   <p className=" font-normal text-[12px] leading-[14px]  mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                  Secure cloud environments by managing risks, ensuring safe storage, and safeguarding online assets.
                   </p>
                 </div>
               </div>

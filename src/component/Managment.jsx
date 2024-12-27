@@ -3,26 +3,39 @@ import React from "react";
 import Security from "../assets/PNG/Security.png"
 import Data_img from "../assets/PNG/Data_img.png"
 import Network_img from "../assets/PNG/Network_img.png"
+import consulting from "../assets/SVG/consulting.png"
+import automation from "../assets/SVG/automation.svg"
 const cards = [
 
     {
         img: Security,
-        heading: "Security Management",
-        peragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing typesetting industry.",
+        heading: "Cloud Integration",
+        peragraph: "Connecting cloud services with your existing infrastructure for scalability and flexibility.",
         button: "Read More"
     },
     {
         img: Data_img,
-        heading: "Data Privacy",
-        peragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing typesetting industry.",
+        heading: "Enterprise Systems",
+        peragraph: " Integrating ERP, CRM, and other business-critical applications to streamline workflows",
         button: "Read More"
     },
     {
         img: Network_img,
-        heading: "Network Security",
-        peragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing typesetting industry.",
+        heading: "Data Integration",
+        peragraph: " Ensuring smooth data flow between platforms, eliminating silos, and enabling actionable insights",
         button: "Read More"
-    }
+    },
+    {
+        img: automation,
+        heading: "IoT & Automation",
+        peragraph: " Bringing automation and smart devices into your ecosystem for enhanced operational efficiency"
+    },
+    {
+        img: consulting,
+        heading: "Consulting & Support",
+        peragraph: "Offering strategic guidance and ongoing support to optimize and future-proof your IT infrastructure",
+        button: "Read More"
+    },
 ]
 
 const Managment = () => {
@@ -33,14 +46,14 @@ const Managment = () => {
                 <div className="text-center">
                     <p className="font_jomolhari  font-normal text-[48px] leading-[62px] text-[white]">What We Do</p>
                     <p className=" font-normal text-[14px] leading-[16px] text-[#FFFFFF99] md:w-[70%] lg:w-[54%] m-auto mt-[30px]">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    We deliver tailored integration solutions that bridge the gap between your business needs and cutting-edge technologies. Our expertise spans across.
                     </p>
 
                 </div>
                 <div>
-                    <div className="flex flex-row flex-wrap justify-center lg:mt-[30px]">
+                    <div className="flex flex-row flex-wrap justify-center ">
                         {cards.map((card, i) => (
-                            <div key={i} className="lg:w-4/12 h-full  md:w-6/12 sm:w-9/12 w-12/12  px-3 card cursor-pointer mt-[30px] lg:mt-0 ">
+                            <div key={i} className="lg:w-4/12 h-full  md:w-6/12 sm:w-9/12 w-12/12  px-3 card cursor-pointer mt-6">
                             
                                 <div className="bg-[#FFFFFF] flex flex-col justify-between text-center shadow-[0px_4px_25px_0px_#0000001A] card_border rounded-[20px] py-[20px] px-[30px]">
                                     <img className="m-auto w-[52px]" src={card.img} alt="card img" />
