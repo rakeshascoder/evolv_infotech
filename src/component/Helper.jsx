@@ -3,6 +3,10 @@ import TeamMember1 from "../assets/PNG/teamMember1.png";
 import TeamMember2 from "../assets/PNG/teamMember2.png";
 import TeamMember3 from "../assets/PNG/TeamMember3.png";
 import TeamMember4 from "../assets/PNG/TeamMember4.png";
+import TeamMember5 from "../assets/PNG/TeamMember5.png";
+import TeamMember6 from "../assets/PNG/TeamMember6.png";
+import TeamMember7 from "../assets/PNG/TeamMember7.png";
+import TeamMember8 from "../assets/PNG/TeamMember8.png";
 import integrity from "../assets/SVG/integrity.svg"
 import Collboration from "../assets/SVG/Collboration.svg"
 import likeicon from "../assets/SVG/likeicon.svg"
@@ -33,25 +37,25 @@ export const teamMember = [
       "Taylor designs an intuitive interface that enhances user experience and engagement.",
   },
   {
-    image: TeamMember1,
+    image: TeamMember5,
     name: "Alex Johnson",
     discription:
       "Alex shares insights on mental health through engaging articles and personal stories.",
   },
   {
-    image: TeamMember2,
+    image: TeamMember6,
     name: "Jamie Lee",
     discription:
       "Jamie fosters a supportive environment for our readers and encourages open discussions.",
   },
   {
-    image: TeamMember3,
+    image: TeamMember7,
     name: "Taylor Smith",
     discription:
       "Taylor designs an intuitive interface that enhances user experience and engagement.",
   },
   {
-    image: TeamMember4,
+    image: TeamMember8,
     name: "Jordan Brown",
     discription:
       "Jordan develops strategies to reach and connect with our audience effectively.",

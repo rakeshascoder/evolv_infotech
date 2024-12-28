@@ -7,8 +7,10 @@ import CountUp from "react-countup";
 
 const Herosection = () => {
   const circleRef = useRef(null);
+  const statsRef = useRef(null);
   const [rotation, setRotation] = useState(0);
   const [isScrolling, setIsScrolling] = useState(false);
+  const [startCount, setStartCount] = useState(false);
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
@@ -41,6 +43,27 @@ const Herosection = () => {
       circleRef.current.style.transform = `rotate(${rotation}deg)`;
     }
   }, [rotation]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setStartCount(true);
+        }
+      },
+      { threshold: 0.5 } // Trigger when 50% of the green div is visible
+    );
+
+    if (statsRef.current) {
+      observer.observe(statsRef.current);
+    }
+
+    return () => {
+      if (statsRef.current) {
+        observer.unobserve(statsRef.current);
+      }
+    };
+  }, []);
 
   return (
     <div className="relative overflow-hidden">
@@ -101,63 +124,66 @@ const Herosection = () => {
         </div>
       </div>
 
-      <div className="bg-[#164343] py-[26px] xl:px-[120px] lg:px-10 px-3 translate-y-[-33px] w-full">
-      <div className="flex gap-5 justify-center lg:justify-between flex-wrap lg:text-start text-center">
-        {/* First Stat */}
-        <div className="flex items-center">
-          <div className="max-lg:px-5">
-            <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
-              <CountUp start={0} end={36} duration={2.5} suffix="+" />
-            </p>
-            <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
-              YEAR’S EXPERIENCE
-            </p>
+      <div
+        ref={statsRef}
+        className="bg-[#164343] py-[26px] xl:px-[120px] lg:px-10 px-3 translate-y-[-33px] w-full"
+      >
+        <div className="flex gap-5 justify-center lg:justify-between flex-wrap lg:text-start text-center">
+          {/* First Stat */}
+          <div className="flex items-center">
+            <div className="max-lg:px-5">
+              <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
+                {startCount && <CountUp start={0} end={36} duration={2.5} suffix="+" />}
+              </p>
+              <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
+                YEAR’S EXPERIENCE
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
+          <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
 
-        {/* Second Stat */}
-        <div className="flex items-center">
-          <div className="max-lg:px-5">
-            <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
-              <CountUp start={0} end={645} duration={2.5} suffix="+" />
-            </p>
-            <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
-              CYBER SECURITY EXPERTS
-            </p>
+          {/* Second Stat */}
+          <div className="flex items-center">
+            <div className="max-lg:px-5">
+              <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
+                {startCount && <CountUp start={0} end={645} duration={2.5} suffix="+" />}
+              </p>
+              <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
+                CYBER SECURITY EXPERTS
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
+          <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
 
-        {/* Third Stat */}
-        <div className="flex items-center">
-          <div className="max-lg:px-5">
-            <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
-              <CountUp start={0} end={100} duration={2.5} suffix="%" />
-            </p>
-            <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
-              CUSTOMER SATISFACTION
-            </p>
+          {/* Third Stat */}
+          <div className="flex items-center">
+            <div className="max-lg:px-5">
+              <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
+                {startCount && <CountUp start={0} end={100} duration={2.5} suffix="%" />}
+              </p>
+              <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
+                CUSTOMER SATISFACTION
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
+          <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
 
-        {/* Fourth Stat */}
-        <div className="flex items-center">
-          <div className="max-lg:px-5">
-            <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
-              <CountUp start={0} end={35} duration={2.5} suffix=" M" />
-            </p>
-            <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
-              CUSTOMER SERVED GLOBALLY
-            </p>
+          {/* Fourth Stat */}
+          <div className="flex items-center">
+            <div className="max-lg:px-5">
+              <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
+                {startCount && <CountUp start={0} end={35} duration={2.5} suffix=" M" />}
+              </p>
+              <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
+                CUSTOMER SERVED GLOBALLY
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 };

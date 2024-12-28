@@ -13,7 +13,7 @@ function OurExpertise() {
 
 
 
-                <div className="max-w-[1360px] mx-auto py-7 lg:py-[100px]">
+                <div className="max-w-[1360px] mx-auto py-7 lg:pt-[100px]">
                     <div className="flex flex-wrap px-[-12px] flex-row justify-between">
                         <div className="w-10/12 sm:w-8/12 mx-auto md:w-5/12 px-3">
                             <img

@@ -68,7 +68,7 @@ function OurService() {
           </div>
         </div>
       </section>
-      <section className="py-[50px] lg:pt-[100px] relative overflow-hidden">
+      <section className="pb-[50px] xl:pt-[50px] lg:pb-[100px] relative overflow-hidden">
         <img
           className="absolute hidden lg:flex left-[0] top-0"
           src={LightGreen}
@@ -102,13 +102,13 @@ function OurService() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden">
+      <section className="relative overflow-hidden ">
         <img
           className="absolute right-[50%] top-0 translate-x-2/4 z-50 h-full"
           src={SliderCenter}
           alt="design image"
         />
-        <div className="bg-[#164343] py-[50px]">
+        <div className="bg-[#164343] py-[50px] ">
           <p className=" text-center text-white font-medium text-xl lg:text-[28px]">
             Trusted Cybersecurity Partner
           </p>
