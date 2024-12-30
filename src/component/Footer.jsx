@@ -10,25 +10,25 @@ const Footer = () => {
       <div className="bg-[#FFFFFF] ">
         <div className="max-w-[1360px] px-3 mx-auto">
           <div className="lg:py-[100px] md:py-[60px] py-[40px]">
-            <div className="bg-custom-gradient   py-[29px] xl:px-[100px] md:px-[30px] px-[30px] rounded-[20px] ">
+            <div className="bg-custom-gradient   py-[26px] xl:px-[100px] md:px-[30px] px-[30px] rounded-[20px] ">
               <div className="flex flex-col lg:flex-row items-center justify-between">
-                <p className="font_outfit font-normal text-[30px] text-center md:text-start lg:text-[35px] xl:text-[48px] xl:leading-[62px] text-[#FFFFFF] lg:w-[50%] lg:me-[30px]">
+                <p className="font_outfit font-normal text-[30px] text-center md:text-start lg:text-[30px] xl:text-[32px] xl:leading-[62px] text-[#FFFFFF] lg:w-[50%] lg:me-[30px]">
                   Subscribe To Our News Letter
                 </p>
                 <div>
                   <div className="bg-[#FFFFFF33] md:w-[632px] flex md:flex-row flex-col justify-between rounded-[10px] px-[10px] py-[10px] mt-[20px] lg:mt-0 ">
                     <input
-                      className="outline-none border-none bg-transparent md:w-[60.7%] md:me-[123px] text-white  md:text-start"
+                      className="outline-none border-none bg-transparent md:w-[60.7%] md:me-[123px] text-white  lg:text-start"
                       type="email"
                       name=""
                       id=""
-                      placeholder="Entre your E-mail address"
+                      placeholder="Enter your E-mail address"
                     />
                     <button className="font-normal font_outfit text-[14px] leading-[22px] text-[white] bg-[#06579C] px-[10px] py-[11px] rounded-[10px] hover:text-[#06579C] hover:bg-[#FFFFFFB2] get_start_border duration-500 whitespace-nowrap  mt-[20px] md:mt-0">
                       Get Started
                     </button>
                   </div>
-                  <p className="font_outfit font-normal text-center md:text-start text-[14px] leading-[22px] text-[#FFFFFFB2] mt-[10px]">
+                  <p className="font_outfit font-normal text-center lg:text-start text-[14px] leading-[22px] text-[#FFFFFFB2] mt-[10px]">
                     Let’s discuss IT strategy, services, and business solutions
                     & compliance concerns.
                   </p>
@@ -37,8 +37,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-row flex-wrap  lg:justify-around xl:justify-between justify-around lg:pb-[100px] md:pb-[60px] pb-[40px]">
-            <div className=" lg:w-3/12 md:w-5/12 w-11/12 px-3 text-center md:text-start ">
+          <div className="flex flex-row flex-wrap lg:justify-around xl:justify-between justify-around text-center sm:text-start  lg:pb-[100px] md:pb-[60px] pb-[40px]">
+            <div className=" w-full lg:w-3/12 px-3 text-center md:text-start ">
               <NavLink
               to="/"
                 onClick={() => scrollToTop()}
@@ -141,32 +141,10 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="xl:w-2/12 lg:w-3/12  md:w-4/12 w-6/12 mt-[50px] sm:w-4/12 md:mt-0  xl:text-start">
-              <div className="ms-10 ">
-                <p className=" font-medium text-[14px] md:text-[16px] leading-[21px] text-[#000000B2]">
-                  Category
-                </p>
+           
 
-                <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[30px] cursor-pointer hover:translate-x-[20px] duration-500">
-                  Tech Solutions
-                </p>
-                <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
-                  Digital Marketing
-                </p>
-                <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
-                  Web Development
-                </p>
-                <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
-                  IT Consulting
-                </p>
-                <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500">
-                  Data Analytics
-                </p>
-              </div>
-            </div>
-
-            <div className="xl:w-2/12 lg:w-3/12 md:w-5/12 sm:w-4/12 w-4/12 mt-[50px] lg:mt-0 flex flex-col">
-              <p className=" font-medium text-[14px] md:text-[16px] leading-[21px] text-[#000000B2]">
+            <div className="xl:w-2/12 lg:w-1/12 sm:w-4/12 w-full mt-[50px] lg:mt-0 flex flex-col">
+              <p className=" font-medium text-[14px] md:text-[16px] leading-[21px] text-[#000000B2] whitespace-nowrap">
                 Quicks Links
               </p>
 
@@ -201,7 +179,7 @@ const Footer = () => {
              
             </div>
 
-            <div className="xl:w-2/12 lg:w-3/12 md:w-4/12 sm:w-6/12  mt-[50px] lg:mt-0 sm:ms-[100px] md:ms-0">
+            <div className="xl:w-3/12 lg:w-3/12 md:w-4/12 sm:w-6/12  mt-[50px] lg:mt-0 sm:ms-[100px] md:ms-0">
               <p className=" font-medium text-[14px] md:text-[16px] text-center  sm:text-start leading-[21px] text-[#000000B2]">
                 Address
               </p>
@@ -210,7 +188,7 @@ const Footer = () => {
                   Colorado Boulder Centre :
                 </p>
 
-                <div className="flex items-center   mt-[10px]">
+                <div className="flex items-center mt-[10px]">
                   <span className="me-[10px]">
                     <svg
                       width="24"
@@ -238,7 +216,7 @@ const Footer = () => {
                     </svg>
                   </span>
                   <p className=" font-normal  text-[12px]  md:text-[14px] leading-[16px] text-[#00000099]">
-                    121 King Street Melbourne, <br /> 3000, Australia
+                    121 King Street Melbourne,3000, Australia
                   </p>
                 </div>
               </div>
@@ -275,7 +253,7 @@ const Footer = () => {
                     </svg>
                   </span>
                   <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099]">
-                    121 King Street Melbourne, <br /> 3000, Australia
+                    121 King Street Melbourne, 3000, Australia
                   </p>
                 </div>
               </div>
