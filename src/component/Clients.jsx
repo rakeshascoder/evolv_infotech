@@ -4,7 +4,7 @@ import five_star from "../assets/PNG/five_star.png";
 import Tesstimonialbg from "../assets/PNG/Tesstimonialbg.png";
 import Slider from "react-slick";
 
-const Clients = () => {
+const Clients = ({display,hidden}) => {
 
 
 
@@ -13,47 +13,26 @@ const Clients = () => {
         infinite: true,
         arrows: false,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
           {
             // For screens larger than 1024px
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,  // Show 4 slides
+              slidesToShow: 2,  // Show 4 slides
               slidesToScroll: 4, // Scroll 4 slides at a time
             },
           },
+        
           {
-            // For screens larger than 1024px
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 2,  // Show 4 slides
-              slidesToScroll: 2, // Scroll 4 slides at a time
-            },
-          },
-          {
-            // For screens larger than 600px but smaller than 1024px
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2, // Show 2 slides
-              slidesToScroll: 2, // Scroll 2 slides at a time
-            },
-          },
-          {
-            breakpoint: 500,
+            breakpoint: 640,
             settings: {
               slidesToShow: 1, // Show 2 slides
               slidesToScroll: 1, // Scroll 2 slides at a time
             },
           },
-          {
-            breakpoint: 0,
-            settings: {
-              slidesToShow: 1, 
-              slidesToScroll: 1,
-            },
-          },
+         
         ],
       };
   return (
@@ -93,7 +72,7 @@ const Clients = () => {
           <p className=" font-normal text-[14px] leading-[14px] text-[#FFFFFF99] lg:w-[56%] md:w-[70%] w-[100%] text-center m-auto lg:mt-[30px] mt-[20px]">
           Our clients trust us for top-notch cybersecurity solutions, praising our expertise in safeguarding their digital assets. From personalized threat prevention to rapid response, they commend our proactive approach, reliability, and cutting-edge technology. With unwavering dedication, we ensure their peace of mind in a constantly evolving cyber threat landscape
           </p>
-          <div className="hidden md:flex  flex-row flex-wrap items-center justify-center   mt-[30px] ">
+          <div className={`flex-row flex-wrap items-center justify-center   mt-[30px] ${display} `}>
             <div className="xl:w-2/12 md:w-3/12 sm:w-11/12 w-12/12 px-3 sm:px-0 z-40">
               <div className="bg-white overflow-hidden  relative  rounded-[20px] py-[30px] px-[20px] border-hover hover:text-white duration-[700ms] cursor-pointer">
                <div className="z-40 relative">
@@ -105,13 +84,7 @@ const Clients = () => {
                   CEO - Company
                 </p>
                 <p className=" font-normal text-[14px] leading-[16px]  mt-[10px]">
-                  Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate
-                  enim tortor nulla facilisi magna. Aenean ac commodo nisi
-                  vitae. In volutpat placerat urna consectetur sollicitudin
-                  maecenas viverra. Viverra egestas amet sed arcu eu. Faucibus
-                  enim potenti viverra a auctor quis ipsum integer placerat.
-                  Faucibus enim potenti viverra a auctor quis ipsum integer
-                  placerat.
+                Partnering with them was the best decision we made. Their expertise in cybersecurity is unmatched, offering innovative solutions and proactive strategies that safeguarded our operations. Highly recommended for businesses seeking reliability, professionalism, and peace of mind..
                 </p>
                 <img className="mt-[10px]" src={five_star} alt="start img" />
                </div>
@@ -134,10 +107,7 @@ const Clients = () => {
                     </div>
                   </div>
                   <p className=" font-normal text-[14px] leading-[16px]  mt-[10px]">
-                    Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate
-                    enim tortor nulla facilisi magna. Aenean ac commodo nisi
-                    vitae. In volutpat placerat urna consectetur sollicitudin
-                    maecenas viverra
+                  "The team’s proactive approach and advanced solutions have revolutionized our business’s security. Their dedication to protecting our assets is inspiring. Exceptional service and expertise, making them a trusted partner for any business aiming to enhance its cybersecurity posture."
                   </p>
                   <img className="mt-[10px]" src={five_star} alt="" />
                   </div>
@@ -157,10 +127,7 @@ const Clients = () => {
                     </div>
                   </div>
                   <p className=" font-normal text-[14px] leading-[16px]  mt-[10px]">
-                    Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate
-                    enim tortor nulla facilisi magna. Aenean ac commodo nisi
-                    vitae. In volutpat placerat urna consectetur sollicitudin
-                    maecenas viverra
+                  We’ve relied on this team for years, and their consistency never ceases to amaze. Their innovative strategies and personalized approach ensure that our digital assets remain safe and sound. Truly a game-changer in the cybersecurity field.
                   </p>
                   <img className="mt-[10px]" src={five_star} alt="" />
                 </div>
@@ -179,13 +146,7 @@ const Clients = () => {
                   CEO - Company
                 </p>
                 <p className=" font-normal text-[14px] leading-[16px]  mt-[10px]">
-                  Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate
-                  enim tortor nulla facilisi magna. Aenean ac commodo nisi
-                  vitae. In volutpat placerat urna consectetur sollicitudin
-                  maecenas viverra. Viverra egestas amet sed arcu eu. Faucibus
-                  enim potenti viverra a auctor quis ipsum integer placerat.
-                  Faucibus enim potenti viverra a auctor quis ipsum integer
-                  placerat.
+                Unwavering dedication to excellence and customer satisfaction sets this team apart. Their cutting-edge technology has fortified our operations against potential threats. Highly professional and reliable; they are the cybersecurity partner every forward-thinking business needs in today’s digital era.
                 </p>
                 <img className="mt-[10px]" src={five_star} alt="start img" />
                </div>
@@ -208,10 +169,7 @@ const Clients = () => {
                     </div>
                   </div>
                   <p className=" font-normal text-[14px] leading-[16px]  mt-[10px]">
-                    Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate
-                    enim tortor nulla facilisi magna. Aenean ac commodo nisi
-                    vitae. In volutpat placerat urna consectetur sollicitudin
-                    maecenas viverra
+                  This team’s professionalism and cutting-edge strategies have been instrumental in securing our digital landscape. They’ve exceeded expectations with their proactive approach and dedication to excellence. A vital partner in achieving our goals and maintaining operational security
                   </p>
                   <img className="mt-[10px]" src={five_star} alt="" />
                  </div>
@@ -231,10 +189,7 @@ const Clients = () => {
                     </div>
                   </div>
                   <p className=" font-normal text-[14px] leading-[16px]  mt-[10px]">
-                    Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate
-                    enim tortor nulla facilisi magna. Aenean ac commodo nisi
-                    vitae. In volutpat placerat urna consectetur sollicitudin
-                    maecenas viverra
+                  Their innovative solutions combined with outstanding expertise have reshaped how we perceive cybersecurity. A highly skilled team that delivers results beyond expectations. Their commitment to safeguarding businesses is truly exceptional. A trustworthy partner for navigating the complexities of technology
                   </p>
                   <img className="mt-[10px]" src={five_star} alt="" />
                   </div>
@@ -246,7 +201,7 @@ const Clients = () => {
 
 
 
-        <div className="md:hidden mt-10">
+        <div className={` ${hidden} mt-10`}>
         <Slider {...settings}>
         <div className="w-11/12 px-3 ">
   <div className="bg-white overflow-hidden  relative  rounded-[20px] py-[30px] px-[20px] border-hover hover:text-white duration-[700ms] cursor-pointer ">
@@ -262,12 +217,7 @@ const Clients = () => {
       </div>
     </div>
     <p className="font-normal text-[14px] leading-[16px] mt-[10px] z-20 relative">
-      Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim tortor
-      nulla facilisi magna. Aenean ac commodo nisi vitae. In volutpat placerat
-      urna consectetur sollicitudin maecenas viverra. Viverra egestas amet sed
-      arcu eu. Faucibus enim potenti viverra a auctor quis ipsum integer
-      placerat. Faucibus enim potenti viverra a auctor quis ipsum integer
-      placerat.
+    Their expertise and innovative approach have revolutionized our digital security. They proactively identify risks and resolve them before they become issues. An exceptional team that delivers reliability, trust, and peace of mind every step of the way.
     </p>
     <img className="mt-[10px] z-20 relative " src={five_star} alt="Five Star Rating" />
   </div>
@@ -286,12 +236,7 @@ const Clients = () => {
       </div>
     </div>
     <p className="font-normal text-[14px] leading-[16px] mt-[10px] z-20 relative">
-      Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim tortor
-      nulla facilisi magna. Aenean ac commodo nisi vitae. In volutpat placerat
-      urna consectetur sollicitudin maecenas viverra. Viverra egestas amet sed
-      arcu eu. Faucibus enim potenti viverra a auctor quis ipsum integer
-      placerat. Faucibus enim potenti viverra a auctor quis ipsum integer
-      placerat.
+    Outstanding service and commitment to cybersecurity excellence. Their insights and advanced strategies have elevated our security to a whole new level. I highly recommend them to any business looking for dependable and forward-thinking protection.
     </p>
     <img className="mt-[10px] z-20 relative " src={five_star} alt="Five Star Rating" />
   </div>
@@ -310,12 +255,7 @@ const Clients = () => {
       </div>
     </div>
     <p className="font-normal text-[14px] leading-[16px] mt-[10px] z-20 relative">
-      Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim tortor
-      nulla facilisi magna. Aenean ac commodo nisi vitae. In volutpat placerat
-      urna consectetur sollicitudin maecenas viverra. Viverra egestas amet sed
-      arcu eu. Faucibus enim potenti viverra a auctor quis ipsum integer
-      placerat. Faucibus enim potenti viverra a auctor quis ipsum integer
-      placerat.
+    This team goes beyond expectations, providing tailored solutions for our unique needs. Their professionalism, dedication, and innovative mindset make them a trusted partner in protecting critical business assets. It’s a pleasure working with such a reliable cybersecurity firm.
     </p>
     <img className="mt-[10px] z-20 relative " src={five_star} alt="Five Star Rating" />
   </div>
@@ -334,12 +274,7 @@ const Clients = () => {
       </div>
     </div>
     <p className="font-normal text-[14px] leading-[16px] mt-[10px] z-20 relative">
-      Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim tortor
-      nulla facilisi magna. Aenean ac commodo nisi vitae. In volutpat placerat
-      urna consectetur sollicitudin maecenas viverra. Viverra egestas amet sed
-      arcu eu. Faucibus enim potenti viverra a auctor quis ipsum integer
-      placerat. Faucibus enim potenti viverra a auctor quis ipsum integer
-      placerat.
+    Their ability to deliver proactive solutions has been invaluable to our business. Always one step ahead, they ensure our operations remain secure and efficient. A team of experts who truly care about their clients’ success
     </p>
     <img className="mt-[10px] z-20 relative " src={five_star} alt="Five Star Rating" />
   </div>
@@ -358,12 +293,7 @@ const Clients = () => {
       </div>
     </div>
     <p className="font-normal text-[14px] leading-[16px] mt-[10px] z-20 relative">
-      Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim tortor
-      nulla facilisi magna. Aenean ac commodo nisi vitae. In volutpat placerat
-      urna consectetur sollicitudin maecenas viverra. Viverra egestas amet sed
-      arcu eu. Faucibus enim potenti viverra a auctor quis ipsum integer
-      placerat. Faucibus enim potenti viverra a auctor quis ipsum integer
-      placerat.
+    Partnering with this company has been a transformative experience. Their cutting-edge technology and customer-focused approach provide unparalleled security solutions. They’ve earned our trust as a key partner in safeguarding our business..
     </p>
     <img className="mt-[10px] z-20 relative " src={five_star} alt="Five Star Rating" />
   </div>

@@ -82,27 +82,7 @@ const Herosection = () => {
         />
       </div>
       <div className="max-w-[1140px] px-3 mx-auto lg:mt-[50px] mt-[30px] text-center relative overflow-hidden">
-        <div className="bg-[#0000001A] inline-block px-[10px] py-[10px] rounded-[20px]">
-          <div className="flex items-center">
-            <span className="me-[24px]">
-              <svg
-                width="22"
-                height="23"
-                viewBox="0 0 22 23"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M22 11.5C22 17.5751 17.0751 22.5 11 22.5C4.92487 22.5 0 17.5751 0 11.5C0 5.42487 4.92487 0.5 11 0.5C17.0751 0.5 22 5.42487 22 11.5ZM8.09699 11.5C8.09699 13.1033 9.39671 14.403 11 14.403C12.6033 14.403 13.903 13.1033 13.903 11.5C13.903 9.89671 12.6033 8.59699 11 8.59699C9.39671 8.59699 8.09699 9.89671 8.09699 11.5Z"
-                  fill="#06579C"
-                />
-              </svg>
-            </span>
-            <p className="font_outfit font-normal text-[20px] leading-[24px] text-[black]">
-              WELCOME TO CYBERTY
-            </p>
-          </div>
-        </div>
+        
         <div>
           <p className="font_jomolhari lg:text-[72px] md:text-[50px] sm:text-[40px] text-[30px] lg:leading-[89px] text-[black] font-normal w-[76%] m-auto mt-[20px] font_Times_New_Roman">
             IT consulting service for{" "}

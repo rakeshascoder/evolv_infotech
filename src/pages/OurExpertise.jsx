@@ -39,7 +39,7 @@ function OurExpertise() {
                             <h1 className=" font-normal text-lg lg:text-5xl mt-3 lg:mt-4 xl:mt-[30px] text-black  lg:leading-[62px]">
                                 With extensive experience in infrastructure management, we serve key sectors such as
                             </h1>
-                            <p className="font-light  text-[10px] lg:text-sm  opacity-70 text-black mt-3 lg:mt-4 xl:mt-[30px]">
+                            <p className="font-light  text-[12px] lg:text-sm  opacity-70 text-black mt-3 lg:mt-4 xl:mt-[30px]">
                                 We work closely with our clients to design and implement solutions that align with their unique business goals, ensuring a smooth integration of cloud services, enterprise applications, and other critical systems.
                             </p>
 
@@ -97,7 +97,7 @@ function OurExpertise() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex items-center gap-x-2.5 w-full  sm:pe-2 mt-[30px]">
+                            <div className="flex items-center gap-x-2.5 w-full  sm:pe-2 mt-3 xl:mt-[30px]">
                                 <div>
 
                                     <img src={tickicon} alt="tickicon" />

@@ -19,9 +19,9 @@ function Home() {
       <Our_service />
       <Values/>
       <OurExpertise/>
-      {/* <Happy_customer /> */}
+     
       <Accordian/>
-      <Clients />
+      <Clients   display="hidden"/>
       <Contacts />
     </>
   );

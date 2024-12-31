@@ -35,8 +35,8 @@ const Nav = () => {
           className="fixed inset-0 bg-black opacity-60 backdrop-blur-3xl z-[20]"
         ></div>
       )}
-      <div className={`max-w-[1360px]   mx-auto    pt-5 ${toggleNav?"px-0": "px-3"}`}>
-        <div className={` bg-white z-[40] relative shadow-[0px_4px_20px_0px_#0000001A] px-[30px] py-[20px] ${toggleNav?"rounded-none": "rounded-[20px]"} `}>
+ <div className={`max-w-[1360px] mx-auto ${toggleNav ? "pt-0" : "pt-5"} ${toggleNav ? "sm:px-0" : "sm:px-3 px-0"}`}>
+     <div className={`bg-white z-[40] relative shadow-[0px_4px_20px_0px_#0000001A] px-[30px] py-[20px] ${toggleNav ? "sm:rounded-none" : "sm:rounded-[20px] rounded-none"}`}>
           <div className="flex items-center justify-between z-[5000] relative">
             <div>
               <NavLink
@@ -48,16 +48,16 @@ const Nav = () => {
             </div>
 
             <div
-              className={`max-lg:fixed max-lg:h-[92.2vh]  max-lg:w-[50%]  max-md:w-[100%] bottom-0  max-lg:flex items-center justify-center max-lg:flex-col  bg-white  lg:bg-transparent duration-700  ${
+              className={`max-lg:fixed max-lg:h-[92.8vh]  max-lg:w-[50%]  max-md:w-[100%] bottom-0  max-lg:flex items-center justify-center max-lg:flex-col  bg-white  lg:bg-transparent duration-700  ${
                 !toggleNav ? "-left-full" : "left-0"
               }`}
             >
               
-              <ol className="flex max-lg:flex-col gap-10 ">
+              <ol className="flex max-lg:flex-col gap-10 text-center">
                 <li>
                   <NavLink
                     onClick={() => navToggel()}
-                    className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
+                    className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300 "
                     to="/"
                   >
                     Home
@@ -90,24 +90,7 @@ const Nav = () => {
                     solutions
                   </NavLink>
                 </li>
-                {/*                 <li>
-                  <NavLink
-                    onClick={() => navToggel()}
-                    to="/clints"
-                    className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
-                  >
-                    Clients
-                  </NavLink>
-                </li> */}
-                {/*                 <li>
-                  <NavLink
-                    onClick={() => navToggel()}
-                    to="testimonials"
-                    className="font-medium font_outfit leading-[20px] text-[16px] text-black hover:text-[#06579C] duration-300"
-                  >
-                    Testimonials
-                  </NavLink>
-                </li> */}
+            
               </ol>
               <div className="mt-12 lg:hidden">
                 <Link

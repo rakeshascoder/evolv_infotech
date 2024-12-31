@@ -9,7 +9,7 @@ const Footer = () => {
     <div>
       <div className="bg-[#FFFFFF] ">
         <div className="max-w-[1360px] px-3 mx-auto">
-          <div className="lg:py-[100px] md:py-[60px] py-[40px]">
+          <div className=" lg:py-[80px] md:py-[60px] py-[40px]">
             <div className="bg-custom-gradient   py-[26px] xl:px-[100px] md:px-[30px] px-[30px] rounded-[20px] ">
               <div className="flex flex-col lg:flex-row items-center justify-between">
                 <p className="font_outfit font-normal text-[30px] text-center md:text-start lg:text-[30px] xl:text-[32px] xl:leading-[62px] text-[#FFFFFF] lg:w-[50%] lg:me-[30px]">

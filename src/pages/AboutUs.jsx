@@ -303,7 +303,7 @@ function AboutUs() {
         </div>
       </div>
       {/* -----------------what our clients saya------------- */}
-      <Clients />
+      <Clients display="hidden md:flex" hidden="md:hidden" />
     </>
   );
 }
