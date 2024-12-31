@@ -213,25 +213,25 @@ function OurSolutions() {
                 <span className="text-[#06579C] font-medium">15 Years</span> of
                 Experience And A Team of Dedication Experts
               </h1>
-              <p className="font-light  text-[10px] lg:text-sm  opacity-70 text-black mt-3 lg:mt-4 xl:mt-[30px]">
+              <p className="font-light  text-[12px] lg:text-sm  opacity-70 text-black mt-3 lg:mt-4 xl:mt-[30px]">
               Our comprehensive approach combines cutting-edge technologies with industry best practices to provide unmatched protection for your business.
               </p>
-              <p className="font-normal  text-[10px] lg:text-sm  opacity-60 text-black mt-4  xl:mt-[50px]">
+              <p className="font-normal  text-[12px] lg:text-sm  opacity-60 text-black mt-4  xl:mt-[50px]">
               We specialize in safeguarding your digital ecosystem from ever-evolving cyber threats. Our expert team delivers tailored solutions designed to protect your sensitive data, enhance your network security, and ensure your systems remain resilient against potential vulnerabilities.
               </p>
               <div className="flex flex-col sm:flex-row justify-between items-start mt-3 lg:mt-4 xl:mt-[50px]">
                 <div className="flex items-center gap-x-2.5 w-full sm:w-6/12 sm:pe-2">
-                  <div>
+                 
                     <img src={Doubletick} alt="image" />
-                  </div>
+                 
                   <p className=" font-normal text-xs sm:text-sm lg:text-base text-black">
                   Advanced threat detection and prevention strategies
                   </p>
                 </div>
                 <div className="flex items-center gap-x-2.5 w-full sm:w-6/12 mt-3 sm:mt-0">
-                  <div>
+                 
                     <img src={Doubletick} alt="image" />
-                  </div>
+                
                   <p className=" font-normal text-xs sm:text-sm lg:text-base text-black">
                   Proven expertise in mitigating cyber risks
                   </p>
@@ -239,17 +239,17 @@ function OurSolutions() {
               </div>
               <div className="flex flex-col sm:flex-row justify-between items-center mt-3 lg:mt-4 xl:mt-[30px]">
                 <div className="flex items-center gap-x-2.5 w-full lg:w-6/12 sm:pe-2">
-                  <div>
+                
                     <img src={Doubletick} alt="image" />
-                  </div>
+                 
                   <p className=" font-normal text-xs sm:text-sm lg:text-base text-black">
                   Tailored solutions for businesses of all sizes
                   </p>
                 </div>
                 <div className="flex items-center gap-x-2.5 w-full lg:w-6/12 mt-3 md:mt-0">
-                  <div>
-                    <img src={Doubletick} alt="image" />
-                  </div>
+                
+                  <img src={Doubletick} alt="image" />
+          
                   <p className=" font-normal text-xs sm:text-sm lg:text-base text-black ">
                   Commitment to maintaining your data integrity and confidentiality
                   </p>

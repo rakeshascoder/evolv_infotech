@@ -44,10 +44,10 @@ function OurService() {
                 <h1 className=" font-normal text-lg lg:text-5xl mt-3 lg:mt-4 xl:mt-[30px] text-black  lg:leading-[60px]">
                   Empowering Growth Through Expert Consulting
                 </h1>
-                <p className=" text-[11px] sm:text-sm  font-light sm:leading-[25px] mt-3 lg:mt-4 xl:mt-[30px] text-black opacity-50 border-t-[1px] border-black border-dashed pt-7">
+                <p className=" text-[12px] sm:text-sm  font-light sm:leading-[25px] mt-3 lg:mt-4 xl:mt-[30px] text-black opacity-50 border-t-[1px] border-black border-dashed pt-7">
                   At EVOLV, we specialize in IT consulting and system integration, helping businesses optimize their technology infrastructure and achieve seamless connectivity. We work closely with organizations to design tailored solutions that improve efficiency, enhance performance, and drive innovation.
                 </p>
-                <p className=" text-[11px] sm:text-sm  font-light sm:leading-[25px] mt-3 lg:mt-4 xl:mt-[30px] text-black opacity-50 pb-4 lg:pb-6 xl:pb-[30px]">
+                <p className=" text-[12px] sm:text-sm  font-light sm:leading-[25px] mt-3 lg:mt-4 xl:mt-[30px] text-black opacity-50 pb-4 lg:pb-6 xl:pb-[30px]">
                   Whether you're looking to integrate cloud services, streamline enterprise applications, or optimize your IT ecosystem, our expert consultants provide strategic guidance every step of the way. We combine deep technical expertise with a collaborative approach to ensure your technology investments align with your business goals.
                 </p>
               </div>
@@ -84,7 +84,7 @@ function OurService() {
                 <h1 className=" font-normal text-lg lg:text-5xl mt-3 lg:mt-4 xl:mt-[30px] text-black  lg:leading-[60px]">
                   Streamlining Infrastructure for Optimal Performance
                 </h1>
-                <p className=" text-[11px] sm:text-sm  font-light sm:leading-[25px] mt-3 lg:mt-4 xl:mt-[30px] text-black opacity-50 border-t-[1px] border-black border-dashed pt-7">
+                <p className=" text-[12px] sm:text-sm  font-light sm:leading-[25px] mt-3 lg:mt-4 xl:mt-[30px] text-black opacity-50 border-t-[1px] border-black border-dashed pt-7">
                   At Evolv, we specialize in IT consulting and system integration, offering tailored solutions that optimize technology infrastructure for businesses across various industries. Our focus is on providing seamless integration and management of IT systems, helping organizations achieve enhanced efficiency, scalability, and long-term success.
                 </p>
 

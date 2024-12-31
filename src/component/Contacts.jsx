@@ -8,7 +8,7 @@ import MobileIcon from "../assets/SVG/mobile.svg"
 function Contacts() {
 
   return (
-    <div className="lg:py-[100px] md:py-[50px] py-[40px] relative overflow-hidden">
+    <div className="lg:pt-[100px]  md:pt-[50px] pt-[40px] relative overflow-hidden">
     <img className="absolute hidden md:block   bottom-[10%] left-[0%] lg:left-[10%] xl:left-[30%]  -z-10" src={RedBigBlur} alt="image background"/>
     <img className="absolute hidden md:block  bottom-[5%] left-[50%] lg:left-[60%] xl:left-[70%] -z-10" src={YellowDesign} alt="image background"/>
       <div className="max-w-[1360px] px-3 mx-auto">
