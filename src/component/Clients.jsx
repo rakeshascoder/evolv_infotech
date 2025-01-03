@@ -1,8 +1,13 @@
 import React from "react";
-import john_img from "../assets/PNG/john_img.png";
+import john_img from "../assets/PNG/john.png";
 import five_star from "../assets/PNG/five_star.png";
 import Tesstimonialbg from "../assets/PNG/Tesstimonialbg.png";
 import Slider from "react-slick";
+import test1 from "../assets/PNG/test1.png"
+import test2 from "../assets/PNG/test2.png"
+import test3 from "../assets/PNG/test3.png"
+import test4 from "../assets/PNG/test4.png"
+import test5 from "../assets/PNG/test5.png"
 
 const Clients = ({display,hidden}) => {
 
@@ -76,9 +81,9 @@ const Clients = ({display,hidden}) => {
             <div className="xl:w-2/12 md:w-3/12 sm:w-11/12 w-12/12 px-3 sm:px-0 z-40">
               <div className="bg-white overflow-hidden  relative  rounded-[20px] py-[30px] px-[20px] border-hover hover:text-white duration-[700ms] cursor-pointer">
                <div className="z-40 relative">
-               <img src={john_img} alt="men_img" />
+               <img src={test1} alt="men_img" />
                 <p className=" font-semibold text-[14px] leading-[16px]  mt-[10px]">
-                  John doe
+                  Taylor
                 </p>
                 <p className=" font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">
                   CEO - Company
@@ -96,10 +101,10 @@ const Clients = ({display,hidden}) => {
                 <div className="bg-[white] border-hover relative overflow-hidden  rounded-[20px] duration-[700ms] cursor-pointer pt-[20px] pb-[16px] px-[20px]  hover:text-[white] sm:me-[30px] md:me-0">
                   <div className="z-20 relative">
                   <div className="flex items-center">
-                    <img src={john_img} alt="men_img" />
+                    <img src={test2} alt="men_img" />
                     <div className="ms-[20px]">
                       <p className=" font-semibold text-[14px] leading-[16px] mt-[10px]">
-                        John doe
+                        Wist
                       </p>
                       <p className=" font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">
                         CEO - Company
@@ -116,10 +121,10 @@ const Clients = ({display,hidden}) => {
                 <div className="bg-[white] rounded-[20px] duration-[700ms] cursor-pointer pt-[20px] pb-[16px] px-[20px] border-hover  relative overflow-hidden hover:text-[white] mt-[20px] sm:mt-0 md:mt-[20px]">
                 <div className="z-20 relative">
                 <div className="flex items-center">
-                    <img src={john_img} alt="men_img" />
+                    <img src={test3} alt="men_img" />
                     <div className="ms-[20px]">
                       <p className=" font-semibold text-[14px] leading-[16px] mt-[10px]">
-                        John doe
+                        Anderson
                       </p>
                       <p className=" font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">
                         CEO - Company
@@ -138,9 +143,9 @@ const Clients = ({display,hidden}) => {
             <div className="xl:w-2/12 md:w-3/12 sm:w-11/12 mt-[20px]  md:mt-0 w-12/12 px-3 sm:px-0 z-40">
               <div className="bg-[white] rounded-[20px] md:py-[30px]  py-[30px]   lg:py-[40px] xl:py-[20px] px-[20px] border-hover relative overflow-hidden hover:text-[white] duration-[700ms] cursor-pointer">
                <div className="z-20 relative">
-               <img src={john_img} alt="men_img" />
+               <img src={test4} alt="men_img" />
                 <p className=" font-semibold text-[14px] leading-[16px]  mt-[10px]">
-                  John doe
+                  Victor
                 </p>
                 <p className=" font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">
                   CEO - Company
@@ -158,10 +163,10 @@ const Clients = ({display,hidden}) => {
                 <div className="bg-[white] rounded-[20px] duration-[700ms] cursor-pointer pt-[20px] pb-[16px] px-[20px] border-hover relative overflow-hidden hover:text-[white] sm:me-[30px] xl:me-0">
                  <div className="z-20 relative">
                  <div className="flex items-center">
-                    <img src={john_img} alt="men_img" />
+                    <img src={test5} alt="men_img" />
                     <div className="ms-[20px]">
                       <p className=" font-semibold text-[14px] leading-[16px] mt-[10px]">
-                        John doe
+                        wall Smith
                       </p>
                       <p className=" font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">
                         CEO - Company
@@ -181,7 +186,7 @@ const Clients = ({display,hidden}) => {
                     <img src={john_img} alt="men_img" />
                     <div className="ms-[20px]">
                       <p className=" font-semibold text-[14px] leading-[16px] mt-[10px]">
-                        John doe
+                        Karsol
                       </p>
                       <p className=" font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">
                         CEO - Company
@@ -209,7 +214,7 @@ const Clients = ({display,hidden}) => {
       <img src={john_img} alt="John Doe" />
       <div>
         <p className="font-semibold text-[14px] leading-[16px] mt-[10px]">
-          John Doe
+          wiblson
         </p>
         <p className="font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">
           CEO - Company
@@ -225,11 +230,10 @@ const Clients = ({display,hidden}) => {
         <div className="w-11/12 px-3 ">
   <div className="bg-white overflow-hidden  relative  rounded-[20px] py-[30px] px-[20px] border-hover hover:text-white duration-[700ms] cursor-pointer ">
     <div className="flex items-center gap-5 z-20 relative ">
-      <img src={john_img} alt="John Doe" />
+      <img src={test1} alt="John Doe" />
       <div>
         <p className="font-semibold text-[14px] leading-[16px] mt-[10px]">
-          John Doe
-        </p>
+          Daniel        </p>
         <p className="font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">
           CEO - Company
         </p>
@@ -244,10 +248,10 @@ const Clients = ({display,hidden}) => {
         <div className="w-11/12 px-3 ">
   <div className="bg-white overflow-hidden  relative  rounded-[20px] py-[30px] px-[20px] border-hover hover:text-white duration-[700ms] cursor-pointer ">
     <div className="flex items-center gap-5 z-20 relative ">
-      <img src={john_img} alt="John Doe" />
+      <img src={test2} alt="John Doe" />
       <div>
         <p className="font-semibold text-[14px] leading-[16px] mt-[10px]">
-          John Doe
+          Harry
         </p>
         <p className="font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">
           CEO - Company
@@ -263,17 +267,17 @@ const Clients = ({display,hidden}) => {
         <div className="w-11/12 px-3 ">
   <div className="bg-white overflow-hidden  relative  rounded-[20px] py-[30px] px-[20px] border-hover hover:text-white duration-[700ms] cursor-pointer ">
     <div className="flex items-center gap-5 z-20 relative ">
-      <img src={john_img} alt="John Doe" />
+      <img src={test3} alt="John Doe" />
       <div>
         <p className="font-semibold text-[14px] leading-[16px] mt-[10px]">
-          John Doe
+          John kliff
         </p>
         <p className="font-normal text-[14px] leading-[16px] opacity-[60%] mt-[5px]">
           CEO - Company
         </p>
       </div>
     </div>
-    <p className="font-normal text-[14px] leading-[16px] mt-[10px] z-20 relative">
+    <p className="font-normal text-[14px] leading-[16px] mt-[10px] z-20 relative ">
     Their ability to deliver proactive solutions has been invaluable to our business. Always one step ahead, they ensure our operations remain secure and efficient. A team of experts who truly care about their clients’ success
     </p>
     <img className="mt-[10px] z-20 relative " src={five_star} alt="Five Star Rating" />
@@ -282,7 +286,7 @@ const Clients = ({display,hidden}) => {
         <div className="w-11/12 px-3 ">
   <div className="bg-white overflow-hidden  relative  rounded-[20px] py-[30px] px-[20px] border-hover hover:text-white duration-[700ms] cursor-pointer ">
     <div className="flex items-center gap-5 z-20 relative ">
-      <img src={john_img} alt="John Doe" />
+      <img src={test4} alt="John Doe" />
       <div>
         <p className="font-semibold text-[14px] leading-[16px] mt-[10px]">
           John Doe

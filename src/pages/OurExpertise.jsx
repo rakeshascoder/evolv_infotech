@@ -75,7 +75,7 @@ function OurExpertise() {
                                         <img src={tickicon} alt="tickicon" />
                                     </div>
                                     <p className=" font-normal text-xs sm:text-sm lg:text-[20px] text-black ">
-                                        Fininacial
+                                    financial
                                     </p>
                                 </div>
                             </div>
