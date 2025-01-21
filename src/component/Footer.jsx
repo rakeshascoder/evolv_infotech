@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -40,7 +40,7 @@ const Footer = () => {
           <div className="flex flex-row flex-wrap lg:justify-around xl:justify-between justify-around text-center sm:text-start  lg:pb-[100px] md:pb-[60px] pb-[40px]">
             <div className=" w-full lg:w-3/12 px-3 text-center md:text-start ">
               <NavLink
-              to="/"
+                to="/"
                 onClick={() => scrollToTop()}
                 className=" font-normal text-[24px] leading-[31px] cursor-pointer"
               >
@@ -141,7 +141,7 @@ const Footer = () => {
               </div>
             </div>
 
-           
+
 
             <div className="xl:w-2/12 lg:w-1/12 sm:w-4/12 w-full mt-[50px] lg:mt-0 flex flex-col">
               <p className=" font-medium text-[14px] md:text-[16px] leading-[21px] text-[#000000B2] whitespace-nowrap">
@@ -176,87 +176,48 @@ const Footer = () => {
               >
                 solutions
               </NavLink>
-             
+
             </div>
 
             <div className="xl:w-3/12 lg:w-3/12 md:w-4/12 sm:w-6/12  mt-[50px] lg:mt-0 sm:ms-[100px] md:ms-0">
               <p className=" font-medium text-[14px] md:text-[16px] text-center  sm:text-start leading-[21px] text-[#000000B2]">
                 Address
               </p>
-              <div className="mt-5 lg:mt-[30px]">
-                <p className=" font-medium text-[14px] md:text-[16px] text-center sm:text-start  leading-[21px] text-[#000000B2] ">
-                  Colorado Boulder Centre :
-                </p>
+              <Link to="https://www.google.com/maps/search/C+722,+Tower+C,+7th+Floor+C+Block,+Phase+2,+Industrial+Area,+Noida+UP,+201309/@28.6124648,77.3632672,17z?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" className="flex items-center mt-5 mb-[20px] lg:mt-[30px] font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099]">
+                <span className="me-[10px]">
+                  <svg
+                    width="24"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M12 21.2677L12.7211 20.4551C13.5394 19.5188 14.2758 18.6277 14.9303 17.782L15.4708 17.0689C17.7283 14.0281 18.8571 11.6155 18.8571 9.83114C18.8571 6.02314 15.7874 2.93628 12 2.93628C8.21254 2.93628 5.14282 6.02314 5.14282 9.83114C5.14282 11.6155 6.27158 14.0285 8.52911 17.07L9.06968 17.7831C10.004 18.9801 10.9814 20.1416 12 21.2677Z"
+                      stroke="black"
+                      stroke-opacity="0.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 12.6506C13.5779 12.6506 14.8571 11.3714 14.8571 9.79342C14.8571 8.21547 13.5779 6.93628 12 6.93628C10.422 6.93628 9.14282 8.21547 9.14282 9.79342C9.14282 11.3714 10.422 12.6506 12 12.6506Z"
+                      stroke="black"
+                      stroke-opacity="0.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span>C 722, Tower C, 7th Floor
+                  C Block, Phase 2,
+                  Industrial Area, Noida
+                  UP, 201309</span>
+              </Link>
+              <Link to="https://g.co/kgs/9HwMCUH" className=" font-normal  text-[12px] md:text-[14px] leading-[16px] text-[#00000099]" target="_blank">GOOGLE-BUSINESS-ADDRESS</Link>
 
-                <div className="flex items-center mt-[10px]">
-                  <span className="me-[10px]">
-                    <svg
-                      width="24"
-                      height="25"
-                      viewBox="0 0 24 25"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M12 21.2677L12.7211 20.4551C13.5394 19.5188 14.2758 18.6277 14.9303 17.782L15.4708 17.0689C17.7283 14.0281 18.8571 11.6155 18.8571 9.83114C18.8571 6.02314 15.7874 2.93628 12 2.93628C8.21254 2.93628 5.14282 6.02314 5.14282 9.83114C5.14282 11.6155 6.27158 14.0285 8.52911 17.07L9.06968 17.7831C10.004 18.9801 10.9814 20.1416 12 21.2677Z"
-                        stroke="black"
-                        stroke-opacity="0.6"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M12 12.6506C13.5779 12.6506 14.8571 11.3714 14.8571 9.79342C14.8571 8.21547 13.5779 6.93628 12 6.93628C10.422 6.93628 9.14282 8.21547 9.14282 9.79342C9.14282 11.3714 10.422 12.6506 12 12.6506Z"
-                        stroke="black"
-                        stroke-opacity="0.6"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p className=" font-normal  text-[12px]  md:text-[14px] leading-[16px] text-[#00000099]">
-                    121 King Street Melbourne,3000, Australia
-                  </p>
-                </div>
-              </div>
-              <div className="mt-[30px]">
-                <p className=" font-medium text-[14px] text-center sm:text-start leading-[21px] text-[#000000B2] ">
-                  Colorado Boulder Centre :
-                </p>
 
-                <div className="flex items-center mt-[10px]">
-                  <span className="me-[10px]">
-                    <svg
-                      width="24"
-                      height="25"
-                      viewBox="0 0 24 25"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M12 21.2677L12.7211 20.4551C13.5394 19.5188 14.2758 18.6277 14.9303 17.782L15.4708 17.0689C17.7283 14.0281 18.8571 11.6155 18.8571 9.83114C18.8571 6.02314 15.7874 2.93628 12 2.93628C8.21254 2.93628 5.14282 6.02314 5.14282 9.83114C5.14282 11.6155 6.27158 14.0285 8.52911 17.07L9.06968 17.7831C10.004 18.9801 10.9814 20.1416 12 21.2677Z"
-                        stroke="black"
-                        stroke-opacity="0.6"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M12 12.6506C13.5779 12.6506 14.8571 11.3714 14.8571 9.79342C14.8571 8.21547 13.5779 6.93628 12 6.93628C10.422 6.93628 9.14282 8.21547 9.14282 9.79342C9.14282 11.3714 10.422 12.6506 12 12.6506Z"
-                        stroke="black"
-                        stroke-opacity="0.6"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p className=" font-normal text-[12px] md:text-[14px] leading-[16px] text-[#00000099]">
-                    121 King Street Melbourne, 3000, Australia
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>

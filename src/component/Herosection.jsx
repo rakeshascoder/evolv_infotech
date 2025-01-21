@@ -106,14 +106,14 @@ const Herosection = () => {
 
       <div
         ref={statsRef}
-        className="bg-[#164343] py-[26px] xl:px-[120px] lg:px-10 px-3 translate-y-[-33px] w-full"
+        className="bg-[#164343]  py-[26px] xl:px-[120px] lg:px-10 px-3 translate-y-[-33px] w-full"
       >
-        <div className="flex gap-5 justify-center lg:justify-between flex-wrap lg:text-start text-center">
+        <div className="flex w-[90%] mx-auto gap-5 justify-center lg:justify-between flex-wrap lg:text-start text-center">
           {/* First Stat */}
           <div className="flex items-center">
             <div className="max-lg:px-5">
               <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
-                {startCount && <CountUp start={0} end={36} duration={2.5} suffix="+" />}
+                {startCount && <CountUp start={0} end={20} duration={2.5} suffix="+" />}
               </p>
               <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
                 YEAR’S EXPERIENCE
@@ -124,7 +124,7 @@ const Herosection = () => {
           <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
 
           {/* Second Stat */}
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <div className="max-lg:px-5">
               <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
                 {startCount && <CountUp start={0} end={645} duration={2.5} suffix="+" />}
@@ -135,7 +135,7 @@ const Herosection = () => {
             </div>
           </div>
 
-          <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div>
+          <div className="h-[130px] w-[1.5px] bg-[#FFFFFF99] hidden lg:block"></div> */}
 
           {/* Third Stat */}
           <div className="flex items-center">

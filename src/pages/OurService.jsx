@@ -110,7 +110,7 @@ function OurService() {
         />
         <div className="bg-[#164343] py-[50px] ">
           <p className=" text-center text-white font-medium text-xl lg:text-[28px]">
-            Trusted Cybersecurity Partner
+            Trusted OEM Partnerships
           </p>
           <div className="relative overflow-hidden">
             <div className="flex gap-[50px] mt-[50px] animate-scroll">
