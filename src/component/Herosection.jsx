@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import business_right_circle from "../assets/PNG/business_right_circle.png";
 import business_left_circle from "../assets/PNG/business_left_circle.png";
-import men_img from "../assets/PNG/men_img.png";
+// import men_img from "../assets/PNG/men_img.png";
+import hero_img from "../assets/PNG/hero_img.png";
 import circle from "../assets/PNG/circle.png";
 import CountUp from "react-countup";
 
@@ -40,7 +41,8 @@ const Herosection = () => {
 
   useEffect(() => {
     if (circleRef.current) {
-      circleRef.current.style.transform = `rotate(${rotation}deg)`;
+      // Combine translate and rotate transformations
+      circleRef.current.style.transform = `translate(-50%, -20%) rotate(${rotation}deg)`;
     }
   }, [rotation]);
 
@@ -93,13 +95,13 @@ const Herosection = () => {
         </div>
         <div className="lg:mt-[150px] sm:mt-[120px] mt-[40px]">
           <div className="mb-8 lg:mt-[74px] mt-[30px]">
-            <img className="m-auto w-90" src={men_img} alt="business img" />
+            <img className="m-auto " src={hero_img} alt="business img" />
           </div>
           <div
             ref={circleRef}
-            className="absolute lg:top-[32%] lg:right-[9%] md:top-[34%] md:right-[4%] sm:top-[31%] sm:right-[2%]  "
+            className="absolute top-[50%] left-[50%]  -translate-x-1/2 -translate-y-1/2  "
           >
-            <img className="m-auto w-full hidden customs:block" src={circle} alt="business img" />
+            <img className="m-auto w-full hidden customs:block scale-110" src={circle} alt="business img" />
           </div>
         </div>
       </div>
