@@ -17,10 +17,10 @@ function Contacts() {
           <div className="w-full md:w-6/12 px-3">
             <p className="text-base font-normal text-black font_outfit">Send Us A Message</p>
             <p className="text-[20px] md:text-2xl lg:text-[46px] font-normal text-black mt-2 md:mt-[30px] font_outfit lg:leading-[59px]">Get in <span className="text-[#06579C]">touch</span> With Us Today</p>
-            <div className="flex gap-7 mt-5 lg:mt-[50px]">
-              <div>
-                <img  src={AddressIcon} alt="icon" />
-              </div>
+            <div className="flex items-start  gap-7 mt-5 lg:mt-[50px]">
+             
+              <img  src={AddressIcon} alt="icon" />
+             
                 <Link to="https://www.google.com/maps/search/C+722,+Tower+C,+7th+Floor+C+Block,+Phase+2,+Industrial+Area,+Noida+UP,+201309/@28.6124648,77.3632672,17z?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
                   <p className="font-normal font_outfit text-sm opacity-50 text-black lg:text-lg">Address</p>
                   <p className="mt-5 text-black font-normal font_outfit text-base leading-[2.4rem] lg:text-[24px]">C 722, Tower C, 7th Floor
@@ -32,7 +32,7 @@ function Contacts() {
             </div>
             <div className="flex gap-7 mt-4 lg:mt-[30px]">
               <div>
-                <img src={MobileIcon} alt="icon" />
+                <img  src={MobileIcon} alt="icon" />
               </div>
               
               <Link to="tel:+ 91 88089 88997">

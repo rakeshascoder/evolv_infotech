@@ -95,7 +95,7 @@ const Herosection = () => {
         </div>
         <div className="lg:mt-[150px] sm:mt-[120px] mt-[40px]">
           <div className="mb-8 lg:mt-[74px] mt-[30px]">
-            <img className="m-auto " src={hero_img} alt="business img" />
+            <img className="m-auto w-[70%] sm:w-auto" src={hero_img} alt="business img" />
           </div>
           <div
             ref={circleRef}

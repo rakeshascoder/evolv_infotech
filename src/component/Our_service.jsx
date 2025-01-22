@@ -36,7 +36,7 @@ const Our_service = () => {
               Our clients are the best at IT Management
             </p>
             <p className=" font-normal text-[14px] leading-[16px] text-[#00000099] md:mt-[30px] mt-[20px]">
-            "Our clients trust us to deliver exceptional IT management solutions tailored to their unique needs. With a focus on innovation and efficiency, we ensure seamless operations and consistent growth. Let us help you achieve your business goals with our expert services."
+              "Our clients trust us to deliver exceptional IT management solutions tailored to their unique needs. With a focus on innovation and efficiency, we ensure seamless operations and consistent growth. Let us help you achieve your business goals with our expert services."
             </p>
 
             <div className="mt-[30px]">
@@ -53,12 +53,12 @@ const Our_service = () => {
           <div className="lg:w-6/12  lg:ps-[30px] md:9/12 mt-[40px] ">
             <div className="bg-[#FFFFFF] group shadow-[0px_4px_25px_0px_#0000001A] py-[20px] px-[30px] rounded-[20px] hover:bg-[#06579C] duration-300 hover:text-[white]  cursor-pointer ">
               <div className="sm:flex items-center ">
-     
-                <div className="group">
+
+                <div className="group flex justify-center items-center">
                   <img
                     src={start_img}
                     alt="star img"
-                    className="filter me-[24px] grayscale group-hover:grayscale-0 transition-all duration-300"
+                    className="filter  sm:me-[24px] grayscale group-hover:grayscale-0 transition-all duration-300"
                   />
                 </div>
                 <div className="text-center sm:text-start">
@@ -66,7 +66,7 @@ const Our_service = () => {
                     Network Security
                   </p>
                   <h1 className=" font-normal text-[12px] leading-[14px] mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">
-                  Protect networks from unauthorized access, ensuring confidentiality, integrity, and availability of data.
+                    Protect networks from unauthorized access, ensuring confidentiality, integrity, and availability of data.
                   </h1>
                 </div>
               </div>
@@ -74,11 +74,11 @@ const Our_service = () => {
 
             <div className="bg-[#FFFFFF] shadow-[0px_4px_25px_0px_#0000001A] py-[20px] px-[30px] rounded-[20px] hover:bg-[#06579C] duration-300 group hover:text-[white]  cursor-pointer mt-[20px]">
               <div className="sm:flex items-center ">
-              <div className="">
+                <div className="flex justify-center items-center">
                   <img
                     src={start_img}
                     alt="star img"
-                    className="filter me-[24px] grayscale group-hover:grayscale-0 transition-all duration-300"
+                    className="filter sm:me-[24px] grayscale group-hover:grayscale-0 transition-all duration-300"
                   />
                 </div>
                 <div className="text-center sm:text-start">
@@ -86,7 +86,7 @@ const Our_service = () => {
                     Application Security
                   </p>
                   <p className=" font-normal text-[12px] leading-[14px]  mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">
-                  Safeguard software applications against vulnerabilities, enhancing reliability and preventing data breaches.
+                    Safeguard software applications against vulnerabilities, enhancing reliability and preventing data breaches.
                   </p>
                 </div>
               </div>
@@ -94,11 +94,11 @@ const Our_service = () => {
 
             <div className="bg-[#FFFFFF] shadow-[0px_4px_25px_0px_#0000001A] py-[20px] px-[30px] rounded-[20px] hover:bg-[#06579C] duration-300 group hover:text-[white]  cursor-pointer mt-[20px]">
               <div className="sm:flex items-center ">
-              <div>
+                <div className="flex justify-center items-center">
                   <img
                     src={start_img}
                     alt="star img"
-                    className="filter me-[24px] grayscale group-hover:grayscale-0 transition-all duration-300"
+                    className="filter sm:me-[24px] grayscale group-hover:grayscale-0 transition-all duration-300"
                   />
                 </div>
                 <div className="text-center sm:text-start">
@@ -106,7 +106,7 @@ const Our_service = () => {
                     Security Awareness
                   </p>
                   <p className=" font-normal text-[12px] leading-[14px]  mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">
-                  Educate individuals about cybersecurity threats, promoting proactive measures to protect sensitive information.
+                    Educate individuals about cybersecurity threats, promoting proactive measures to protect sensitive information.
                   </p>
                 </div>
               </div>
@@ -114,11 +114,11 @@ const Our_service = () => {
 
             <div className="bg-[#FFFFFF] shadow-[0px_4px_25px_0px_#0000001A] py-[20px] px-[30px] rounded-[20px] hover:bg-[#06579C] duration-300 group hover:text-[white]  cursor-pointer mt-[20px]">
               <div className="sm:flex items-center ">
-              <div>
+                <div className="flex justify-center items-center">
                   <img
                     src={start_img}
                     alt="star img"
-                    className="filter me-[24px] grayscale group-hover:grayscale-0 transition-all duration-300"
+                    className="filter sm:me-[24px] grayscale group-hover:grayscale-0 transition-all duration-300"
                   />
                 </div>
                 <div className="text-center sm:text-start">
@@ -126,7 +126,7 @@ const Our_service = () => {
                     Cloud Security
                   </p>
                   <p className=" font-normal text-[12px] leading-[14px]  mt-[7px] sm:mt-0  sm:w-[60%] opacity-[60%]">
-                  Secure cloud environments by managing risks, ensuring safe storage, and safeguarding online assets.
+                    Secure cloud environments by managing risks, ensuring safe storage, and safeguarding online assets.
                   </p>
                 </div>
               </div>
