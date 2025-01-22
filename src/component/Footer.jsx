@@ -215,7 +215,8 @@ const Footer = () => {
                   Industrial Area, Noida
                   UP, 201309</span>
               </Link>
-              <Link to="https://g.co/kgs/9HwMCUH" className=" font-normal  text-[12px] md:text-[14px] leading-[16px] text-[#00000099]" target="_blank">GOOGLE-BUSINESS-ADDRESS</Link>
+              <Link to="https://g.co/kgs/9HwMCUH" className=" font-normal  text-[12px] md:text-[16px] leading-[16px] text-[#00000099]" target="_blank"><span className="animated-heading">GOOGLE-BUSINESS-ADDRESS</span></Link>
+
 
 
             </div>
