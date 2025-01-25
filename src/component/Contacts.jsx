@@ -46,9 +46,9 @@ function Contacts() {
                 <img src={EmailIcon} alt="icon" />
               </div>
               <div>
-                <Link to="mailto:EvolvInfotech79@gmail.com">
+                <Link to="mailto:info@evolvinfotech.com">
                   <p className="font-normal font_outfit text-sm opacity-50 text-black lg:text-lg">Email</p>
-                  <p className="mt-5 text-black font-normal font_outfit text-base lg:text-[24px]">EvolvInfotech79@gmail.com</p>
+                  <p className="mt-5 text-black font-normal font_outfit text-base lg:text-[24px]">info@evolvinfotech.com</p>
                 </Link>
               </div>
             </div>
