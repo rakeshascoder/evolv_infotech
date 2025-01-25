@@ -343,3 +343,11 @@ li .active {
 .dhover:hover {
   filter: grayscale(0);
 }
+
+.bg_hero_header_img {
+  background-image: url(./assets/PNG/hero_bg.png);
+  min-height: 100vh;
+  margin-top: -88px;
+  background-size: cover;
+}
+

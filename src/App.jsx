@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <div className="relative mt-0">
-        <Nav />
+        <div className="sticky top-0 z-50">        <Nav /></div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutUs" element={<AboutUs />} />

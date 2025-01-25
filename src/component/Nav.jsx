@@ -35,7 +35,7 @@ const Nav = () => {
           className="fixed inset-0 bg-black opacity-60 backdrop-blur-3xl z-[20]"
         ></div>
       )}
- <div className={`max-w-[1360px] mx-auto ${toggleNav ? "pt-0" : "pt-5"} ${toggleNav ? "sm:px-0" : "sm:px-3 px-0"}`}>
+      <div className={`max-w-[1360px] mx-auto  duration-500 ${toggleNav ? "pt-0" : "pt-5"} ${toggleNav ? "sm:px-0" : "sm:px-3 px-0"}`}>
      <div className={`bg-white z-[40] relative shadow-[0px_4px_20px_0px_#0000001A] px-[30px] py-[20px] ${toggleNav ? "sm:rounded-none" : "sm:rounded-[20px] rounded-none"}`}>
           <div className="flex items-center justify-between z-[5000] relative">
             <div>
