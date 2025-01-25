@@ -39,7 +39,7 @@ const Nav = () => {
       {toggleNav && (
         <div
           onClick={() => (setToggleNav(!toggleNav), navToggel())}
-          className="fixed inset-0 bg-black opacity-60 backdrop-blur-3xl z-[20]"
+          className="fixed lg:hidden inset-0 bg-black opacity-60 backdrop-blur-3xl z-[20]"
         ></div>
       )}
       <div className={`max-w-[1360px] mx-auto  duration-500 ${toggleNav ? "pt-0" : "pt-5"} ${toggleNav ? "sm:px-0" : "sm:px-3 px-0"}`}>
