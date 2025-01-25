@@ -38,25 +38,25 @@ export const teamMember = [
   },
   {
     image: TeamMember5,
-    name: "Alex Johnson",
+    name: "Williamson",
     discription:
       "Alex shares insights on mental health through engaging articles and personal stories.",
   },
   {
     image: TeamMember6,
-    name: "Jamie Lee",
+    name: "Robertson",
     discription:
       "Jamie fosters a supportive environment for our readers and encourages open discussions.",
   },
   {
     image: TeamMember7,
-    name: "Taylor Smith",
+    name: "Jenny Fox",
     discription:
       "Taylor designs an intuitive interface that enhances user experience and engagement.",
   },
   {
     image: TeamMember8,
-    name: "Jordan Brown",
+    name: "Annette Black",
     discription:
       "Jordan develops strategies to reach and connect with our audience effectively.",
   },

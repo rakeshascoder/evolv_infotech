@@ -217,7 +217,7 @@ function AboutUs() {
                     <h1 className="font_outfit font-semibold text-base lg:text-xl text-center mt-3 lg:mt-[30px]">
                       {item.name}
                     </h1>
-                    <p className="font_outfit font-normal text-sm xl:text-base mt-3 lg:mt-[30px] text-center px-2 sm:px-3 md:px-0 xl:px-2">
+                    {/* <p className="font_outfit font-normal text-sm xl:text-base mt-3 lg:mt-[30px] text-center px-2 sm:px-3 md:px-0 xl:px-2">
                       {item.discription}
                     </p>
                     <div className="flex items-center justify-center gap-[14px] mt-3 lg:mt-[30px]">
@@ -230,7 +230,7 @@ function AboutUs() {
                       <button>
                         <img src={Dribble} alt="icon" />
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               );
