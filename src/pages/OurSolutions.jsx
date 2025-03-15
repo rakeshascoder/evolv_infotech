@@ -1,4 +1,4 @@
-import React from "react";
+
 import Header from "../component/Header";
 import { cyberSafe } from "../component/Helper";
 import RedDesign from "../assets/PNG/redDesign.png";
@@ -10,9 +10,6 @@ import PinkDesign from "../assets/PNG/pinkDesign.png";
 import YellowDesign from "../assets/PNG/yellowDesing.png";
 import MenWomen from "../assets/PNG/menWomen.png";
 import LightGreen from "../assets/PNG/lightGreenDesign.png";
-import Panda from "../assets/PNG/panda.png";
-import Avira from "../assets/PNG/avira.png";
-import Msp from "../assets/PNG/msp.png";
 import SliderCenter from "../assets/PNG/sliderCenter.png";
 function OurSolutions() {
   return (
@@ -211,7 +208,7 @@ function OurSolutions() {
               <h1 className=" font-normal text-lg lg:text-5xl mt-3 lg:mt-4 xl:mt-[30px] text-black  lg:leading-[60px]">
                 With{" "}
                 <span className="text-[#06579C] font-medium">15 Years</span> of
-                Experience And A Team of Dedication Experts
+                Experience And A Team of Dedicated Experts
               </h1>
               <p className="font-light  text-[12px] lg:text-sm  opacity-70 text-black mt-3 lg:mt-4 xl:mt-[30px]">
               Our comprehensive approach combines cutting-edge technologies with industry best practices to provide unmatched protection for your business.

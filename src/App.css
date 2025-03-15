@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jacques+Francois&family=Jomolhari&family=Orelega+One&family=Outfit:wght@100..900&display=swap&family=Inter:wght@100..900&family=Pinyon+Script&display=swap'&family=Inter:wght@100..900&family=Pinyon+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
   font-family: "Outfit", sans-serif !important;
 }
 
-
 .font_Times_New_Roman {
   font-family: "Tinos", serif !important;
 }
-
 
 .font_pinyon {
   font-family: "Pinyon Script", cursive !important;
@@ -241,7 +239,7 @@ ol li a {
 
 .ourServie_hover:hover {
   background-color: white;
-  border: 1px solid #06579C;
+  border: 1px solid #06579c;
 }
 
 .ourServie_hover:hover svg path {
@@ -250,11 +248,10 @@ ol li a {
 }
 
 .ourServie_hover:hover svg rect {
-  fill: #06579C;
-  stroke: #06579C;
+  fill: #06579c;
+  stroke: #06579c;
   transition: fill 0.3s ease, stroke 0.3s ease;
 }
-
 
 .scrollbar-hide {
   -ms-overflow-style: none;
@@ -268,13 +265,9 @@ ol li a {
   /* Chrome, Safari, and Opera */
 }
 
-
-
 li .active {
-  color: #06579C;
+  color: #06579c;
 }
-
-
 
 .border-hover::after {
   content: "";
@@ -284,11 +277,10 @@ li .active {
   /* border-radius: 20px; */
   left: 0;
   top: 0;
-  background-color: #06579C;
+  background-color: #06579c;
 
   transition: 700ms;
 }
-
 
 .border-hover:hover::after {
   width: 100%;
@@ -297,13 +289,7 @@ li .active {
   top: 0;
 }
 
-
-
-
-
-
 .animated-heading {
-
   position: relative;
 }
 
@@ -314,7 +300,7 @@ li .active {
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: #08579C;
+  background-color: #08579c;
   transform: translateX(-50%);
   animation: grow-border 1.5s ease-out infinite;
 }
@@ -335,7 +321,6 @@ li .active {
   }
 }
 
-
 .dhover {
   filter: grayscale(100);
 }
@@ -344,10 +329,18 @@ li .active {
   filter: grayscale(0);
 }
 
-.bg_hero_header_img {
-  background-image: url(./assets/PNG/hero_bg.png);
-  min-height: 100vh;
-  margin-top: -88px;
-  background-size: cover;
-}
+  .bg_hero_header_img {
+    background-image: url(./assets/PNG/hero_bg.png);
+    min-height: 70vh;
+    margin-top: -88px;
+    background-size: cover;
+  }
 
+@media (min-width: 1200px) {
+  .bg_hero_header_img {
+    background-image: url(./assets/PNG/hero_bg.png);
+    min-height: 100vh;
+    margin-top: -88px;
+    background-size: cover;
+  }
+}

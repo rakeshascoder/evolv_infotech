@@ -1,4 +1,6 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/prop-types */
+
 import { useLocation } from "react-router-dom";
 
 function Header({  title, about, span }) {

@@ -1,14 +1,6 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
+
 import Header from "../component/Header";
-import { cyberSafe } from "../component/Helper";
-import RedDesign from "../assets/PNG/redDesign.png";
-import YellowLightDesing from "../assets/PNG/yellowLightDesign.png";
-import GreenCircleDesign from "../assets/PNG/greenCircle.png";
-import Partner from "../assets/PNG/partners.png";
-import Doubletick from "../assets/SVG/doubleTick.svg";
-import PinkDesign from "../assets/PNG/pinkDesign.png";
-import YellowDesign from "../assets/PNG/yellowDesing.png";
-import MenWomen from "../assets/PNG/menWomen.png";
 import LightGreen from "../assets/PNG/lightGreenDesign.png";
 import Suse from "../assets/PNG/Suse.png";
 import Veeam from "../assets/PNG/Veeam.png";
@@ -26,7 +18,7 @@ function OurService() {
       <Header
         title="Our Services"
         about="Comprehensive"
-        span="Cybersecurity Services"
+        span="Cybersecurity is one of the solutions"
       />
       <section className="py-[50px] lg:pt-[100px] relative overflow-hidden">
         <img
@@ -45,25 +37,36 @@ function OurService() {
                   Empowering Growth Through Expert Consulting
                 </h1>
                 <p className=" text-[12px] sm:text-sm  font-light sm:leading-[25px] mt-3 lg:mt-4 xl:mt-[30px] text-black opacity-50 border-t-[1px] border-black border-dashed pt-7">
-                  At EVOLV, we specialize in IT consulting and system integration, helping businesses optimize their technology infrastructure and achieve seamless connectivity. We work closely with organizations to design tailored solutions that improve efficiency, enhance performance, and drive innovation.
+                  At EVOLV, we specialize in IT consulting and system
+                  integration, helping businesses optimize their technology
+                  infrastructure and achieve seamless connectivity. We work
+                  closely with organizations to design tailored solutions that
+                  improve efficiency, enhance performance, and drive innovation.
                 </p>
                 <p className=" text-[12px] sm:text-sm  font-light sm:leading-[25px] mt-3 lg:mt-4 xl:mt-[30px] text-black opacity-50 pb-4 lg:pb-6 xl:pb-[30px]">
-                  Whether you're looking to integrate cloud services, streamline enterprise applications, or optimize your IT ecosystem, our expert consultants provide strategic guidance every step of the way. We combine deep technical expertise with a collaborative approach to ensure your technology investments align with your business goals.
+                  Whether you're looking to integrate cloud services, streamline
+                  enterprise applications, or optimize your IT ecosystem, our
+                  expert consultants provide strategic guidance every step of
+                  the way. We combine deep technical expertise with a
+                  collaborative approach to ensure your technology investments
+                  align with your business goals.
                 </p>
               </div>
-
             </div>
             <div className="w-10/12 sm:w-8/12 lg:w-6/12 mx-auto xl:w-5/12  px-3  mt-5 xl:mt-0">
               <div className=" relative ">
+                <img className="w-full " src={Consulting} alt="consulting" />
                 <img
-                  className="w-full "
-                  src={Consulting}
-                  alt="consulting"
+                  className=" absolute start-[-45px] top-[-60px] z-[-1] hidden md:block"
+                  src={dots1}
+                  alt="dots1"
                 />
-                <img className=" absolute start-[-45px] top-[-60px] z-[-1] hidden md:block" src={dots1} alt="dots1" />
-              <img className="absolute bottom-[-50px] end-[-65px] z-[-1] hidden md:block" src={dots2} alt="dots2" />
-                </div>
-              
+                <img
+                  className="absolute bottom-[-50px] end-[-65px] z-[-1] hidden md:block"
+                  src={dots2}
+                  alt="dots2"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -85,11 +88,14 @@ function OurService() {
                   Streamlining Infrastructure for Optimal Performance
                 </h1>
                 <p className=" text-[12px] sm:text-sm  font-light sm:leading-[25px] mt-3 lg:mt-4 xl:mt-[30px] text-black opacity-50 border-t-[1px] border-black border-dashed pt-7">
-                  At Evolv, we specialize in IT consulting and system integration, offering tailored solutions that optimize technology infrastructure for businesses across various industries. Our focus is on providing seamless integration and management of IT systems, helping organizations achieve enhanced efficiency, scalability, and long-term success.
+                  At Evolv, we specialize in IT consulting and system
+                  integration, offering tailored solutions that optimize
+                  technology infrastructure for businesses across various
+                  industries. Our focus is on providing seamless integration and
+                  management of IT systems, helping organizations achieve
+                  enhanced efficiency, scalability, and long-term success.
                 </p>
-
               </div>
-
             </div>
             <div className="w-10/12 sm:w-8/12 lg:w-6/12 mx-auto xl:w-5/12  px-3  mt-5 xl:mt-0">
               <img
@@ -114,19 +120,66 @@ function OurService() {
           </p>
           <div className="relative overflow-hidden">
             <div className="flex gap-[50px] mt-[50px] animate-scroll">
-              <img className="w-[40%] lg:w-full" src={Redhat} alt="image of company tag" />
-              <img className="w-[40%] lg:w-full" src={Suse} alt="image of company tag" />
-              <img className="w-[40%] lg:w-full" src={Veeam} alt="image of company tag" />
-              <img className="w-[40%] lg:w-full" src={Paloalto} alt="image of company tag" />
-              <img className="w-[40%] lg:w-full" src={Redhat} alt="image of company tag" />
-              <img className="w-[40%] lg:w-full" src={Suse} alt="image of company tag" />
-              <img className="w-[40%] lg:w-full" src={Veeam} alt="image of company tag" />
-              <img className="w-[40%] lg:w-full" src={Paloalto} alt="image of company tag" />
-              <img className="w-[40%] lg:w-full" src={Redhat} alt="image of company tag" />
-              <img className="w-[40%] lg:w-full" src={Suse} alt="image of company tag" />
-              <img className="w-[40%] lg:w-full" src={Veeam} alt="image of company tag" />
-              <img className="w-[40%] lg:w-full" src={Paloalto} alt="image of company tag" />
-
+              <img
+                className="w-[40%] lg:w-full"
+                src={Redhat}
+                alt="image of company tag"
+              />
+              <img
+                className="w-[40%] lg:w-full"
+                src={Suse}
+                alt="image of company tag"
+              />
+              <img
+                className="w-[40%] lg:w-full"
+                src={Veeam}
+                alt="image of company tag"
+              />
+              <img
+                className="w-[40%] lg:w-full"
+                src={Paloalto}
+                alt="image of company tag"
+              />
+              <img
+                className="w-[40%] lg:w-full"
+                src={Redhat}
+                alt="image of company tag"
+              />
+              <img
+                className="w-[40%] lg:w-full"
+                src={Suse}
+                alt="image of company tag"
+              />
+              <img
+                className="w-[40%] lg:w-full"
+                src={Veeam}
+                alt="image of company tag"
+              />
+              <img
+                className="w-[40%] lg:w-full"
+                src={Paloalto}
+                alt="image of company tag"
+              />
+              <img
+                className="w-[40%] lg:w-full"
+                src={Redhat}
+                alt="image of company tag"
+              />
+              <img
+                className="w-[40%] lg:w-full"
+                src={Suse}
+                alt="image of company tag"
+              />
+              <img
+                className="w-[40%] lg:w-full"
+                src={Veeam}
+                alt="image of company tag"
+              />
+              <img
+                className="w-[40%] lg:w-full"
+                src={Paloalto}
+                alt="image of company tag"
+              />
             </div>
           </div>
         </div>

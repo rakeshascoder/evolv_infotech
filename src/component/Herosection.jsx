@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useRef, useState } from "react";
 import business_right_circle from "../assets/PNG/business_right_circle.png";
 import business_left_circle from "../assets/PNG/business_left_circle.png";
@@ -5,13 +6,11 @@ import business_left_circle from "../assets/PNG/business_left_circle.png";
 // import hero_img from "../assets/PNG/hero_img.png";
 // import circle from "../assets/PNG/circle.png";
 
-
 const Herosection = () => {
   const circleRef = useRef(null);
   const statsRef = useRef(null);
   const [rotation, setRotation] = useState(0);
   const [isScrolling, setIsScrolling] = useState(false);
-
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
@@ -46,8 +45,6 @@ const Herosection = () => {
     }
   }, [rotation]);
 
-
-
   return (
     <div className="relative overflow-hidden bg_hero_header_img flex items-center justify-center">
       <div>
@@ -65,20 +62,20 @@ const Herosection = () => {
         />
       </div>
       <div className="max-w-[1140px]  mx-auto  mt-[88px] text-center relative overflow-hidden">
-
         <div>
-          <h1 className="font_jomolhari lg:text-[72px] md:text-[50px] sm:text-[40px] text-[30px] lg:leading-[89px] text-[white] font-normal w-[76%] m-auto  font_Times_New_Roman">
+          <h1 className="font_jomolhari xl:text-[72px] md:text-[50px] sm:text-[40px] text-[30px] md:leading-[55px] xl:leading-[89px] text-[white] font-normal w-[76%] m-auto  font_Times_New_Roman">
             IT consulting service for{" "}
-            <span className="text-[#3bf2f5] font-medium font_Times_New_Roman">
+            <span className="text-[#3bf2f5] font-medium font_Times_New_Roman sm:block">
               Your Business
             </span>
           </h1>
-          <p className="text-white/70 mt-4 w-[95%] sm:w-[80%] m-auto">With years of experience in the industry, our team of IT experts understands the ever-evolving nature of technology. We offer tailored business goals.</p>
+          <p className="text-white/70 mt-4 w-[95%] sm:w-[80%] m-auto">
+            With 18+ years of experience in the industry, our team of IT experts
+            understands the ever-evolving nature of technology. We offer
+            tailored business goals.
+          </p>
         </div>
-
       </div>
-
-
     </div>
   );
 };
