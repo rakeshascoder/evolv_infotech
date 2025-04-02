@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import RedBigBlur from '../assets/PNG/redBigBlur.png'
 import YellowDesign from "../assets/PNG/yellowDesing.png";
 import AddressIcon from "../assets/SVG/Adress.svg"
@@ -30,8 +30,8 @@ function Contacts() {
     e.preventDefault();
     console.log("Form Data:", formData);
     emailjs
-      .sendForm('service_wa562oh', 'template_2x3b2ho', form.current, {
-        publicKey: '392z7lApbKiG1AAvb',
+      .sendForm('service_q2epkgg', 'template_l4ma2uf', form.current, {
+        publicKey: 'WsDfv1Aqn327o7fse',
       })
       .then(
         () => {
