@@ -86,9 +86,9 @@ function Contacts() {
                 <img src={MobileIcon} alt="icon" />
               </div>
 
-              <Link to="tel:+ 91 88089 88997">
+              <Link to="tel:+91 97797 03312">
                 <p className="font-normal font_outfit text-sm opacity-50 text-black lg:text-lg">Mobile No</p>
-                <p className="mt-5 text-black font-normal font_outfit text-base lg:text-[24px]">+ 91 88089 88997</p></Link>
+                <p className="mt-5 text-black font-normal font_outfit text-base lg:text-[24px]">+91 97797 03312</p></Link>
 
 
             </div>
