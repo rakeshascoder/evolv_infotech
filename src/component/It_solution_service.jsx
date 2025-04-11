@@ -85,7 +85,7 @@ const It_solution_service = () => {
             <div className="max-lg:px-5">
               <p className="font-semibold leading-[62px] lg:text-[35px] text-[25px] xl:text-[48px] text-[white]">
                 {startCount && (
-                  <CountUp start={0} end={35} duration={2.5} suffix=" M" />
+                  <CountUp start={0} end={3} duration={2.5} suffix=" M" />
                 )}
               </p>
               <p className="leading-[16px] text-[14px] font-medium mt-[5px] text-[white] whitespace-nowrap">
