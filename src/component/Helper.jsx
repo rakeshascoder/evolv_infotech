@@ -1,12 +1,10 @@
-import { Title } from "@mui/icons-material";
+// import { Title } from "@mui/icons-material";
 import TeamMember1 from "../assets/PNG/teamMember1.png";
 import TeamMember2 from "../assets/PNG/teamMember2.png";
 import TeamMember3 from "../assets/PNG/TeamMember3.png";
 import TeamMember4 from "../assets/PNG/TeamMember4.png";
 import TeamMember5 from "../assets/PNG/TeamMember5.png";
 import TeamMember6 from "../assets/PNG/TeamMember6.png";
-import TeamMember7 from "../assets/PNG/TeamMember7.png";
-import TeamMember8 from "../assets/PNG/TeamMember8.png";
 import integrity from "../assets/SVG/integrity.svg"
 import Collboration from "../assets/SVG/Collboration.svg"
 import likeicon from "../assets/SVG/likeicon.svg"
@@ -14,52 +12,47 @@ import innovation from "../assets/SVG/innovation.svg"
 export const teamMember = [
   {
     image: TeamMember1,
-    name: "Alex Johnson",
-    discription:
-      "Alex shares insights on mental health through engaging articles and personal stories.",
-  },
-  {
-    image: TeamMember2,
-    name: "Jamie Lee",
-   discription:
-      "Alex shares insights on mental health through engaging articles and personal stories.",
-  },
-  {
-    image: TeamMember3,
-    name: "Taylor Smith",
-    discription:
-      "Taylor designs an intuitive interface that enhances user experience and engagement.",
-  },
-  {
-    image: TeamMember4,
-    name: "Jordan Brown",
-    discription:
-      "Taylor designs an intuitive interface that enhances user experience and engagement.",
-  },
-  {
-    image: TeamMember5,
-    name: "Williamson",
+    name: "Rakhi Bahri",
+    post: "Sales Manager",
     discription:
       "Alex shares insights on mental health through engaging articles and personal stories.",
   },
   {
     image: TeamMember6,
-    name: "Robertson",
+    name: "Kusum Thakur",
+    post: "Logistics Manager",
     discription:
-      "Jamie fosters a supportive environment for our readers and encourages open discussions.",
+      "Alex shares insights on mental health through engaging articles and personal stories.",
   },
   {
-    image: TeamMember7,
-    name: "Jenny Fox",
+    image: TeamMember2,
+    name: "Rajni Malik",
+    post: "Operations Analyst",
     discription:
       "Taylor designs an intuitive interface that enhances user experience and engagement.",
   },
   {
-    image: TeamMember8,
-    name: "Annette Black",
+    image: TeamMember3,
+    name: "Surbhi",
+    post: "Accounting Manager",
     discription:
-      "Jordan develops strategies to reach and connect with our audience effectively.",
+      "Taylor designs an intuitive interface that enhances user experience and engagement.",
   },
+  {
+    image: TeamMember4,
+    name: "Arvind",
+    post: "Senior Accountant",
+    discription:
+      "Alex shares insights on mental health through engaging articles and personal stories.",
+  },
+  {
+    image: TeamMember5,
+    name: "Nakul",
+    post: "Marketing Strategist",
+    discription:
+      "Jamie fosters a supportive environment for our readers and encourages open discussions.",
+  },
+
 ];
 export const cyberSafe = [
   {
@@ -93,32 +86,32 @@ export const cyberSafe = [
       "Implements measures to safeguard cloud-stored data, applications, and services from cyberattacks, ensuring compliance and secure access",
   },
 ]
-;
-export const  valuesdata = [
+  ;
+export const valuesdata = [
 
-    {
-        img: integrity,
-        heading: "Integrity",
-        peragraph: "We believe in transparent, honest communication and a commitment to doing the right thing every time.",
-        
-    },
-    {
-        img: innovation,
-        heading: "innovation",
-        peragraph: "We stay at the forefront of technology to deliver creative and forward-thinking solutions.",
-        
-    },
-    {
-        img: likeicon,
-        heading: "Excellence",
-        peragraph: "We are committed to providing the highest standard of service in everything we do.",
-        
-    },
-    {
-        img: Collboration,
-        heading: "Collaboration",
-        peragraph: "We work closely with our clients to ensure their vision becomes a reality."
-    },
-   
+  {
+    img: integrity,
+    heading: "Integrity",
+    peragraph: "We believe in transparent, honest communication and a commitment to doing the right thing every time.",
+
+  },
+  {
+    img: innovation,
+    heading: "innovation",
+    peragraph: "We stay at the forefront of technology to deliver creative and forward-thinking solutions.",
+
+  },
+  {
+    img: likeicon,
+    heading: "Excellence",
+    peragraph: "We are committed to providing the highest standard of service in everything we do.",
+
+  },
+  {
+    img: Collboration,
+    heading: "Collaboration",
+    peragraph: "We work closely with our clients to ensure their vision becomes a reality."
+  },
+
 ]
 

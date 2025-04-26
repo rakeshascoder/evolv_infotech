@@ -72,7 +72,7 @@ const Clients = ({ display, hidden }) => {
             </p>
           </div>
           <p className="font_jomolhari font-normal md:text-[35px] text-[25px] lg:text-[48px] leading-[59px] text-center text-[#FFFFFF] lg:mt-[30px] mt-[20px]">
-            What Our Clients Says
+            What Our Clients Say
           </p>
           <p className=" font-normal text-[14px] leading-[14px] text-[#FFFFFF99] lg:w-[56%] md:w-[70%] w-[100%] text-center m-auto lg:mt-[30px] mt-[20px]">
             Our clients trust us for top-notch cybersecurity solutions, praising our expertise in safeguarding their digital assets. From personalized threat prevention to rapid response, they commend our proactive approach, reliability, and cutting-edge technology. With unwavering dedication, we ensure their peace of mind in a constantly evolving cyber threat landscape
