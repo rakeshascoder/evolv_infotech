@@ -187,7 +187,7 @@ function AboutUs() {
             Together
           </h4>
           <h2 className="font_outfit text-2xl lg:text-5xl font-medium text-center text-[#06579C] mt-3 lg:mt-5">
-            <span className="text-black">Our</span> Team member’s
+            <span className="text-black">Our</span> Team Members
           </h2>
           <p className=" font-normal text-sm lg:text-lg text-black mt-3 lg:mt-5 text-center">
             Meet the passionate individuals behind our mission.

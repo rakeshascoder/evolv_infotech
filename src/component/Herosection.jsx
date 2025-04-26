@@ -71,7 +71,7 @@ const Herosection = () => {
           </h1>
           <p className="text-white/70 mt-4 w-[95%] sm:w-[80%] m-auto">
             With 18+ years of experience in the industry, our team of IT experts
-            understands the ever-evolving nature of technology. We offer
+            understand the ever-evolving nature of technology. We offer
             tailored business goals.
           </p>
         </div>
