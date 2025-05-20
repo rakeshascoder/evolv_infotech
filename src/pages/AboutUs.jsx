@@ -13,7 +13,7 @@ import Xsvg from "../assets/SVG/Xsvg.svg";
 import LinkedIn from "../assets/SVG/LinkedIn.svg";
 import GreenCircleDesign from "../assets/PNG/greenCircle.png";
 import OurTeamBgDesign from "../assets/PNG/ourTeamBgDesign.png";
-import Clients from "../component/Clients";
+// import Clients from "../component/Clients";
 import Slider from "react-slick";
 
 function AboutUs() {
@@ -302,7 +302,7 @@ function AboutUs() {
         </div>
       </div>
       {/* -----------------what our clients saya------------- */}
-      <Clients display="hidden md:flex" hidden="md:hidden" />
+      {/* <Clients display="hidden md:flex" hidden="md:hidden" /> */}
     </>
   );
 }

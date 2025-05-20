@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import Header from '../component/Header'
 import john_img from "../assets/PNG/john_img.png"
 import five_star from "../assets/PNG/five_star.png"

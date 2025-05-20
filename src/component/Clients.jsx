@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import john_img from "../assets/PNG/john.png";
 import five_star from "../assets/PNG/five_star.png";
 import Tesstimonialbg from "../assets/PNG/Tesstimonialbg.png";
@@ -112,7 +112,7 @@ const Clients = ({ display, hidden }) => {
                       </div>
                     </div>
                     <p className=" font-normal text-[14px] leading-[16px]  mt-[10px]">
-                      "The team’s proactive approach and advanced solutions have revolutionized our business’s security. Their dedication to protecting our assets is inspiring. Exceptional service and expertise, making them a trusted partner for any business aiming to enhance its cybersecurity posture."
+                    &quot;The team’s proactive approach and advanced solutions have revolutionized our business’s security. Their dedication to protecting our assets is inspiring. Exceptional service and expertise, making them a trusted partner for any business aiming to enhance its cybersecurity posture.&quot;
                     </p>
                     <img className="mt-[10px]" src={five_star} alt="" />
                   </div>
